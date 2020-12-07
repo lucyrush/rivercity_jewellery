@@ -3,10 +3,10 @@ from .models import Comment
 
 
 class AddComment(forms.ModelForm):
-    model = Comment
-    fields = ('name', 'body')
-
-    widgets = {
-        'name': forms.TextInput(attrs={'class': 'form-control'}),
-        'body': forms.Textarea(attrs={'class': 'form-control'}),
-    }
+    class Meta:
+        model = Comment
+        fields = ('name', 'body')
+        widgets = {
+            'name': forms.TextInput(attrs={'class': 'col-sm-12'}),
+            'body': forms.Textarea(attrs={'class': 'col-sm-12'}),
+        }
