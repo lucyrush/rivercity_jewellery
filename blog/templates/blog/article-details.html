@@ -31,9 +31,22 @@
     {% for comment in post.comments.all %}
         <strong>{{ comment.name }}</strong> - {{ comment.date_added }}
         <br/>
-        {{ comment.body }}
+        {{ comment.body }}<br/>
     {% endfor %}
 {% endif %}
+
+<br/>
+
+<h1>Add Comment...</h1>
+    <br/><br/>
+
+    <div class="form-group">
+    <form menthod = "POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-secondary">Add Comment</button>
+    </form>
+    </div>
 
 <br/>
 <a href="{% url 'blog' %}">Back</a>
