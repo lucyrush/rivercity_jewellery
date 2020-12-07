@@ -1,5 +1,8 @@
 from django.shortcuts import render
+from django.views.generic import ListView, DeleteView
+from .models import Post
 
 
-def blog(request):
-    return render(request, 'blog/blog.html', {})
+class Blog(ListView):
+    model = Post
+    template_name ='blog/blog.html'
