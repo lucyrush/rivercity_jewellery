@@ -1,5 +1,27 @@
-<h1> {{ post.title }} </h1>
-<small>By: {{ post.autor }} </small></br>
-{{ post.body }}
+{% extends "base.html" %}
+{% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">{{ post.title }}</h2>
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
+    <div class="row">
+        <small>By: {{ post.author }} </small></br>
+        {{ post.body }}
+    </div>
+</div>
 <a href="{% url 'blog' %}">Back</a>
+{% endblock %}
