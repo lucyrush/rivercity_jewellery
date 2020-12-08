@@ -17,12 +17,6 @@
                 <h2 class="logo-font">Artist's Blog</h2>
                 <hr class="w-50 mb-1">
             </div>
-        </div>
-    <div class="row">
-        {% for post in object_list %}
-            <li><a href="{% url 'article-detail' post.pk %}">{{ post.title }}</a> - {{ post.author }}<br/>
-            {{ post.body }} </li>
-        {% endfor %}
     </div>
 </div>
 {% endblock %}

@@ -14,40 +14,8 @@
 <div class="container-fluid">
     <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo-font">{{ post.title }}</h2>
+                <h2 class="logo-font"></h2>
                 <hr class="w-50 mb-1">
             </div>
         </div>
-    <div class="row">
-        <small>By: {{ post.author }} </small><br>
-        {{ post.body }}
-    </div>
-</div>
-
-<h2> Comments... </h2>
-{% if not post.comments.all %}
-    No comments Yet <a href="#"> Add One </a>
-{% else %}
-    {% for comment in post.comments.all %}
-        <strong>{{ comment.name }}</strong> - {{ comment.date_added }}
-        <br/>
-        {{ comment.body }}<br/>
-    {% endfor %}
-{% endif %}
-
-<br/>
-
-<h1>Add Comment...</h1>
-    <br/><br/>
-
-    <div class="form-group">
-    <form menthod = "POST">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button class="btn btn-secondary">Add Comment</button>
-    </form>
-    </div>
-
-<br/>
-<a href="{% url 'blog' %}">Back</a>
 {% endblock %}
