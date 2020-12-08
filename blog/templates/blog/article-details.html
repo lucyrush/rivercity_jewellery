@@ -14,8 +14,18 @@
 <div class="container-fluid">
     <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo-font"></h2>
+                <h2 class="logo-font">this is the header</h2>
                 <hr class="w-50 mb-1">
             </div>
         </div>
+</div>
+    <div class="post">
+        {% if post.published_date %}
+            <div class="date">
+                {{ post.published_date }}
+            </div>
+        {% endif %}
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
 {% endblock %}
