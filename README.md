@@ -1,45 +1,265 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **Rivercity Jewellery**
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+View live project here 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Table of Contents
 
-`python3 -m http.server`
+1. [User Experience](#user-experience(ux))
+  - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+2. [Wireframes](#wireframes)
+3. [Features](#features)
+  - [Existing Features](#existing-features)
+    - [Features On All Pages](#features-on-all-pages)
+    - [Features Of Individual Pages](#features-of-individual-pages)
+  - [Features Left To Implement](#features-left-to-implement)
+4. [Technologies Used](#technologies-used)
+  - [Front-End Technologies](#front-end-technologies)
+  - [Back-End Technologies](#back-end-technologies)
+  - [Database Schema](#database-schema)
+5. [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+  - [Functional Testing](#functional-testing)
+6. [Deployment](#deployment)
+  - [Local Deployment](#local-deployment)
+  - [Remote Deployment](#remote-deployment)
+7. [Content](#content)
+  - [Media](#media)
+  - [Credits](#credits)
 
-A blue button should appear to click: *Make Public*,
+# User Experience (UX)
 
-Another blue button should appear to click: *Open Browser*.
+## User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### As a site user, I want to be able to:
+- Easily register for an account, so that I can be able to have a personal account and be able to view my profile 
+- Easily login and logout, so that I can access my personal account and easily logout to quit the session
+- Easily revoer my password if I forget it so that I can recover access to my account
+- Have a personalised user account so that I can view my personal order history and order confirmations, and save my payment information
+- Easily navigate to the blog so that I can read the latest blog posts
+- See short desriptions of each blog, so that I can quickly decide which blog post I would like to read
+- Easily naigate to the blog post details so that I can read the full blog post to learn new information about jewellery
+- Easily leave comments, pending approval by the site user so that I can express my thoughts on the blog post 
 
-A blue button should appear to click: *Make Public*,
+### As a site owner, I want to be able to:
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### As a shopper, I want to be able to:
 
-## Updates Since The Instructional Video
+## Design
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Colour Scheme
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Typography
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Imagery
 
---------
 
-Happy coding!
+## Wireframes
+
+- Desktop
+
+
+- Tablet
+
+  
+- Mobile
+ 
+
+The current site layout is different to the wireframes due to a change in image choices and colour scheme.
+
+# Features
+
+## Existing Features 
+
+### Features on all pages
+
+#### Navbar
+- There will be a difference in the navbars that is depenndent if the user is logged in or not by using their username and password. A jinja loop is used to determine which navbar to display
+  - If not in session:  the homepage, listings page, register page and login page will be displayed. With a responsive navbar that contains links to the Home, Register and Login pages.
+  - If in session: the homepage, listings page, profile page, new listing page and logout will be displayed. This is also responsive. 
+ 
+#### Footer 
+- A footer is at the bottom of every page 
+  - The footer contains the contact details of the Adapt Easy creators, links to top of the page, login page and the register page. 
+  - The footer is responsive
+
+### Features of individual pages
+
+#### Home Page 
+- The hero image
+  - The hero image is on 3 people walking a safe distance from each other, wearing masks. This image is a sign of times and a sight that all of us are used to by now!
+
+ 
+- Extra Navigation Buttons
+
+
+#### Products Pages
+
+
+ 
+ #### Blog Page
+ 
+
+  
+#### Blog CRUD Pages
+
+
+#### Profile Page 
+
+
+
+## Features Left To Implement 
+
+
+
+# Technologies Used
+
+- Gitpod - Used as the IDE for this application.
+- Github used for the remote storage of the code online.
+
+## Font-End Technologies
+- HTML - Used to create the structure of the application.
+- CSS - Used as the base for styling.
+- Javascript - Used to create interactivity within the project
+- JQuery - Used for some of the main javascript functionality.
+.
+
+## Back-End Technologies
+- Flask - Used as the microframework.
+- Jinja - Used for templating with Flask.
+- Heroku - Used to host the application
+- Python - The back-end programming language.
+- Pymongo - Used to connect the python with the database.
+- MongoDB Atlas - Used to store the database.
+
+## Database Schema
+
+
+
+
+
+
+# Testing 
+
+## Code Testing 
+
+### Validator Testing 
+
+[W3C Markup Validation](https://validator.w3.org/nu/#textarea)
+
+- HTML 
+ 
+  
+- CSS
+ 
+
+ [JSHINT](https://jshint.com/)
+
+- When run through the [JSHint validator](https://jshint.com/) these metrics were returned:
+ 
+
+
+[Python PEP8](https://pypi.org/project/autopep8/)
+
+- The autopep8 extension was installed in the workspace.
+
+- To install this enter this in the terminal:
+  - `pip3 install --upgrade autopep8`
+
+- Then, you can format the code into PEP8 formatting by entering this command into the terminal:
+  - `autopep8 --in-place --aggressive --aggressive app.py`
+  
+
+
+### Known Issues 
+
+
+## Functional Testing
+
+Testing User Stories from User Experience (UX) Section
+
+### First Time Visitor Goals
+
+
+
+### Returning Visitor Goals
+
+
+
+### Frequent User Goals
+
+
+# Deployment
+
+## Local Deployment 
+
+### To run this project locally
+
+In order to run this project locally, you will need to install the following:
+- An IDE, such as [VS Code](https://code.visualstudio.com/)
+- [PIP](https://pip.pypa.io/en/stable/installing/) to install the app requirements.
+- [Python3](https://www.python.org/downloads/) to run the application
+- [GIT](https://www.atlassian.com/git/tutorials/install-git) for version control
+- [MongoDB](https://www.mongodb.com/) to develop the database.
+ -Once this is done, you will need need to download the .ZIP file of the repository, unzip this file and then in the CLI with GIT installed, enter the following command:
+  - ``https://github.com/lucyrush/adapt-easy.git``
+
+- Navigate to the to path using the ``cd`` command.
+
+- Create a `.env` file with your credentials. Be sure to include your `MONGO_URI` and `SECRET_KEY` values.
+
+- Install all requirements from the ``requirements.txt`` file using the following command:
+  - ``sudo -H pip3 -r requirements.txt``
+
+- Sign up for a free account on MongoDB and create a new Database called adapt-easy. The names of the databases collections can be found in the database schema section.
+
+- You should then be able to launch your app using the following command in your terminal:
+  - ``python app.py``
+
+## Remote Deployment 
+
+- Create a ``requirements.txt`` file using the terminal command ``pip freeze > requirements.txt``
+- Create a Procfile with the terminal command ``echo web: python app.py > Procfile``
+- ``git add`` and ``git commit`` the new requirements and Procfile and then ``git push`` the project to GitHub.
+- Navigate over to [Heroku](https://id.heroku.com/login)
+- Click the "new" button, give the project a name & set the region to Europe.
+- From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
+- Confirm the linking of the heroku app to the correct GitHub repository.
+- In the heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
+- Set the following config vars:
+
+| KEY           | Value         | 
+| ------------- |:-------------:| 
+| DEBUG          | FALSE         | 
+| IP            | 	0.0.0.0      |
+| PORT          | 5000           | 
+| MONGODBNAME   | <database_name>   | 
+| MONGO_URI      | mongodb+srv://:@<cluster_name>-qtxun.mongodb.net/<database_name>?retryWrites=true&w=majority  | 
+|SECRET_KEY     | <secret_key>    | 
+
+
+# Content
+
+
+
+## Media 
+
+
+
+## Credits
+
+ 
+
+
+
