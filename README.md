@@ -36,14 +36,20 @@ View live project here
 
 ## User Stories
 
-### First Time Visitor Goals
+### As a site user, I want to be able to:
+- Easily register for an account, so that I can be able to have a personal account and be able to view my profile 
+- Easily login and logout, so that I can access my personal account and easily logout to quit the session
+- Easily revoer my password if I forget it so that I can recover access to my account
+- Have a personalised user account so that I can view my personal order history and order confirmations, and save my payment information
+- Easily navigate to the blog so that I can read the latest blog posts
+- See short desriptions of each blog, so that I can quickly decide which blog post I would like to read
+- Easily naigate to the blog post details so that I can read the full blog post to learn new information about jewellery
+- Easily leave comments, pending approval by the site user so that I can express my thoughts on the blog post 
+
+### As a site owner, I want to be able to:
 
 
-
-### Returning Visitor Goals
-
-
-### Frequent User Goals
+### As a shopper, I want to be able to:
 
 ## Design
 
