@@ -47,7 +47,7 @@ View live project here
 - Easily leave comments, pending approval by the site user so that I can express my thoughts on the blog post 
 
 ### As a site owner, I want to be able to:
-- Easily add new products to sell, so that I can keep my store relecting new products in my inventory
+- Easily add new products to sell, so that I can keep my store reflecting new products in my inventory
 - Easily edit/update existing products that are listed, so that I can keep my products listing up to date with the correct information 
 - Quickly delete products should they no longer be available to the shopper, so that I can make sure the shopper does not select a product that is no longer available 
 - Easily create new blog post, edit existing blog posts and delete blog posts, so that I can keep my blog up to date with new posts and delete post that may no longer be relevant
@@ -63,6 +63,8 @@ View live project here
 - Easily see the subtotal for each item, so that I can get an idea of how much I am spending on each item 
 - Safely and securely use my card details to make the payment, so that I can have peace of mind that the payment is safe
 - Save my details on the site, so that I can be a return shopper without the hassle of re-entering all of my details 
+- View an order confirmation after checkout, so that I can verify that I have not made any mistakes
+- Receive an email confirmation after checkout, so that I can keep the confirmation of what I have purchased in my records
 
 ## Design
 
