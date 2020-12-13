@@ -82,13 +82,13 @@ View live project here
 
 ## Wireframes
 
-- Home
-- Sign In/Register
-- Products
-- Product Details
-- Checkout
-- Blog
-- Blog Details
+- [Home](readme-additions/home-wireframes.JPG)
+- [Sign In/Register]
+- [Products]
+- [Product Details]
+- [Checkout]
+- [Blog]
+- [Blog Details]
  
 
 The current site layout is different to the wireframes due to a change in image choices and colour scheme.
