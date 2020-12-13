@@ -227,8 +227,9 @@ In order to run this project locally, you will need to install the following:
 
 
 ## Credits
+- https://unsplash.com/photos/s8SJ8pmxPDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/zTxp7jb5osM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
- 
 
 
 
