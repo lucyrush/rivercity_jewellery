@@ -82,13 +82,13 @@ View live project here
 
 ## Wireframes
 
-- Desktop
-
-
-- Tablet
-
-  
-- Mobile
+- Home
+- Sign In/Register
+- Products
+- Product Details
+- Checkout
+- Blog
+- Blog Details
  
 
 The current site layout is different to the wireframes due to a change in image choices and colour scheme.
