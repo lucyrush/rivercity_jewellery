@@ -11,9 +11,25 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <h1>New comment</h1>
-    <form method="POST" class="post-form">{% csrf_token %}
-        {{ form|crispy}}
-        <button type="submit" class="save btn btn-default">Send</button>
-    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <hr>
+                <h5 class="text-muted">New Comment</h5>
+                <hr>
+            </div>
+        </div>
+
+    <div class="row">
+            <div class="col-12 col-md-6">
+                <form method="POST" class="post-form mb-2" >
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-outline-black rounded-0">Send</button>
+                    </div>
+                </form>
+            </div>            
+        </div>
+    </div>
 {% endblock %}
