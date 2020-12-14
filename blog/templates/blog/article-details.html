@@ -14,7 +14,7 @@
 <div class="container-fluid">
     <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo-font">{{ post.title }}</h2>
+                <h2 class="logo-font">this is the header</h2>
                 <hr class="w-50 mb-1">
             </div>
         </div>
@@ -36,51 +36,19 @@
 {% for comment in post.comments.all %}
     {% if user.is_authenticated or comment.approved_comment %}
     <div class="comment">
-        <strong>By: {{ comment.author }}</strong>
-        <p>{{ comment.text|linebreaks }}</p>
         <div class="date">
             {{ comment.created_date }}
+            {% if not comment.approved_comment %}
+                <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span>Remove Comment</a>
+                <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok">Approve Comment</span></a>
+            {% endif %}
         </div>
+        <strong>{{ comment.author }}</strong>
+        <p>{{ comment.text|linebreaks }}</p>
     </div>
     {% endif %}
 {% empty %}
     <p>No comments here yet :(</p>
-    {% if not comment.approved_comment %}
-                <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span>Remove Comment</a>
-                <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok">Approve Comment</span></a>
-    {% endif %}
 {% endfor %}
     </div>
-
-    {% for comment in post.comments.all %}
-    {% if user.is_authenticated or comment.approved_comment %}
-    <div class="container">
-	<div class="row">
-		<div class="col col-md-8 offset-md-2 mt-3">
-            <div class="card">
-                <div class="comment">
-                    <strong>By: {{ comment.author }}</strong>
-                    <p>{{ comment.text|linebreaks }}</p>
-                    <div class="date">
-                        {{ comment.created_date }}
-                    </div>
-                </div>
-            </div>
-            {% endif %}
-            {% empty %}
-            <p>No comments here yet :(</p>
-            {% if not comment.approved_comment %}
-                <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span>Remove Comment</a>
-                <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok">Approve Comment</span></a>
-        </div>
-    </div>
-    {% endif %}
-    {% endfor %}
-    </div>
-
-    <div class="text-center">
-            <a class="btn btn-outline-black rounded-0" href="{% url 'post_list' %}">Back to Blog</a>
-    </div>
-
-
 {% endblock %}
