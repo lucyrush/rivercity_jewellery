@@ -31,6 +31,19 @@
             </div>
             <h2 class="logo-font mb-4"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
             <p>{{ post.text|linebreaksbr }}</p>
+            {% if post.image %}
+          <img
+            class="card-img-top mb-3"
+            src="{{ post.image.url }}"
+            alt="{{ post.title }}"
+          />
+          {% else %}
+          <img
+            class="card-img-top mb-3"
+            src="{{ MEDIA_URL }}noimage.jpg"
+            alt="{{ post.title }}"
+          />
+          {% endif %}
             <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
         </div>
         <hr class="w-50 mb-1">
