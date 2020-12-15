@@ -14,37 +14,13 @@
 <div class="container-fluid">
     <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo-font">this is the header</h2>
+                <h2 class="logo-font">{{ post.title }}</h2>
                 <hr class="w-50 mb-1">
             </div>
-        </div>
+    </div>
 </div>
     <div class="post">
-        {% if post.published_date %}
-            <div class="date">
-                {{ post.published_date }}
-            </div>
-        {% endif %}
-        {% if user.is_authenticated %}
-     <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span>Edit the post</a>
-     <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}"><span class="glyphicon glyphicon-remove"></span>Delete the post</a>
-{% endif %}
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.text|linebreaksbr }}</p>
-        {% if post.image %}
-          <img
-            class="card-img-top mb-3"
-            src="{{ post.image.url }}"
-            alt="{{ post.title }}"
-          />
-          {% else %}
-          <img
-            class="card-img-top mb-3"
-            src="{{ MEDIA_URL }}noimage.jpg"
-            alt="{{ post.title }}"
-          />
-          {% endif %}
-        <hr>
+    
         <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
 {% for comment in post.comments.all %}
     {% if user.is_authenticated or comment.approved_comment %}
@@ -64,4 +40,39 @@
     <p>No comments here yet :(</p>
 {% endfor %}
     </div>
+
+     <div class="container mt-5">
+
+
+   <!--Section: Content-->
+              <section class="text-justify">
+                
+               <p class="font-weight-bold">{{ post.text|linebreaksbr }}</p>
+          
+                    <figure class="figure">
+                        {% if post.image %}
+          <img
+            class="figure-img img-fluid z-depth-1"
+            src="{{ post.image.url }}"
+            alt="{{ post.title }}"
+          />
+          {% else %}
+          <img
+            class="figure-img img-fluid z-depth-1"
+            src="{{ MEDIA_URL }}noimage.jpg"
+            alt="{{ post.title }}"
+          />
+          {% endif %}
+                    </figure>
+                    <p>by <a><strong>{{ post.author }}</strong></a>,{{ post.published_date }}</p>
+                    
+                    <hr>
+            </section>
+              <!--Section: Content-->
+{% if user.is_authenticated %}
+     <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span>Edit the post</a>
+     <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}"><span class="glyphicon glyphicon-remove"></span>Delete the post</a>
+{% endif %}
+
+  </div>
 {% endblock %}
