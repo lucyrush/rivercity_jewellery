@@ -76,7 +76,13 @@
                         <p>No comments here yet :(</p>
                 {% endfor %}
                 </div>
-                <a class="btn btn-outline-black rounded-0" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+                <a class="btn btn-outline-black rounded-0" href="{% url 'add_comment_to_post' pk=post.pk %}">Add a Comment</a>
+                <a href="{% url 'post_list' %}" class="btn btn-outline-black rounded-0">
+					<span class="icon mr-2">
+						<i class="fab fa-microblog"></i>
+					</span>
+                    <span class="text-uppercase">Back to Blog List</span>
+                    </a>
             </div>
 
     </div>

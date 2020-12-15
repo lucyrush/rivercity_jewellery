@@ -18,11 +18,12 @@
                 <hr class="w-50 mb-1">
             </div>
     </div>
-</div>
+
     
     <!-- Grid row -->
-    <div class="row align-items-center">
-        {% for post in posts %}
+     {% for post in posts %}
+    <div class="row blog-list align-items-center">
+       
       <!-- Grid column -->
       <div class="post col-lg-5">
 
@@ -59,17 +60,16 @@
         <a class="btn btn-outline-black rounded- mx-0" href="{% url 'post_detail' pk=post.pk %}">Read more</a>
 
       </div>
-      <!-- Grid column -->
-      {% endfor %}
+      
+      
+    <hr class="w-50 mb-1">
     </div>
-    <!-- Grid row -->
-    <hr class="my-5">
-<div class="row">
+    {% endfor %}
+    
+<div class="row text-center">
         {% if request.user.is_superuser %}
-            <div class="text-center">
-                <a class="btn btn-outline-black rounded-0" href="{% url 'post_new' %}">Add a New Post</a>
-            </div>
+            <a class="btn btn-outline-black rounded-0" href="{% url 'post_new' %}">Add a New Post</a>    
         {% endif %}
     </div>
-
+</div>
 {% endblock %}
