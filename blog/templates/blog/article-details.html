@@ -20,9 +20,7 @@
     </div>
 
 
-     <div class="container mt-5">
-
-
+    <div class="container mt-5">
    <!--Section: Content-->
               <section class="text-justify">
                 
@@ -78,12 +76,10 @@
                         <p>No comments here yet :(</p>
                 {% endfor %}
                 </div>
-                <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+                <a class="btn btn-outline-black rounded-0" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
             </div>
 
     </div>
-
-    <!-- Blog post management -->
     
 </div>
 </div>
