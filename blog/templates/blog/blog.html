@@ -30,13 +30,13 @@
         <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
           {% if post.image %}
           <img
-            class="img-fluid"
+            class="img-fluid h-10"
             src="{{ post.image.url }}"
             alt="{{ post.title }}"
           />
           {% else %}
           <img
-            class="img-fluid"
+            class="img-fluid h-10"
             src="{{ MEDIA_URL }}noimage.jpg"
             alt="{{ post.title }}"
           />
