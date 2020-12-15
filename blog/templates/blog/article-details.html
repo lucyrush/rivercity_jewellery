@@ -45,43 +45,48 @@
                     </figure>
                     <p>by <a><strong>{{ post.author }}</strong></a>,{{ post.published_date }}</p>
                     
+                    {% if request.user.is_superuser %}
+                        <div class="text-center">
+                        <a class="btn btn-outline-black rounded-0" href="{% url 'post_edit' pk=post.pk %}">Edit this Post</a>
+                        <a class="btn btn-outline-black rounded-0" href="{{% url 'post_remove' pk=post.pk %}">Delete this Post</a>
+                        </div>
+                    {% endif %}
+                    
                     <hr>
             </section>
             <!-- Comments -->
             <div class="comments">
-    
-<a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
-{% for comment in post.comments.all %}
-    {% if user.is_authenticated or comment.approved_comment %}
-    <div class="comment">
-        <div class="date">
-            {{ comment.created_date }}
-            {% if not comment.approved_comment %}
-                <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}"><span class="glyphicon glyphicon-remove"></span>Remove Comment</a>
-                <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok">Approve Comment</span></a>
-            {% endif %}
-        </div>
-        <strong>{{ comment.author }}</strong>
-        <p>{{ comment.text|linebreaks }}</p>
-    </div>
-    {% endif %}
-{% empty %}
-    <p>No comments here yet :(</p>
-{% endfor %}
+                <h2 class="logo-font">Comments:</h2>
+                {% for comment in post.comments.all %}
+                {% if user.is_authenticated or comment.approved_comment %}
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ comment.text|linebreaks }}</h4>
+                        <p class="card-text">Posted by:{{ comment.author }}</p>
+                        <div class="date">
+                            {{ comment.created_date }}
+                        </div>
+                        {% if request.user.is_superuser %}
+                            {% if not comment.approved_comment %}
+                            <a href="{% url 'comment_remove' pk=comment.pk %}" class="card-link">Remove Comment</a>
+                            <a href="{% url 'comment_approve' pk=comment.pk %}" class="card-link">Approve Comment</a>
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                    {% empty %}
+                        <p>No comments here yet :(</p>
+                {% endfor %}
+                </div>
+                <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+            </div>
+
     </div>
 
     <!-- Blog post management -->
-
-
-                    <div class="row">
-        {% if request.user.is_superuser %}
-            <div class="text-center">
-                <a class="btn btn-outline-black rounded-0" href="{% url 'post_edit' pk=post.pk %}">Edit this Post</a>
-                <a class="btn btn-outline-black rounded-0" href="{{% url 'post_remove' pk=post.pk %}">Delete this Post</a>
-            </div>
-        {% endif %}
-    </div>
-
-  </div>
+    
 </div>
+</div>
+</div>
+
 {% endblock %}
