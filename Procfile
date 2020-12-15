@@ -1,1 +1,1 @@
-web: gunicorn rivercity-jewellery.wsgi:application
+web: gunicorn rivercity_jewellery.wsgi:application
