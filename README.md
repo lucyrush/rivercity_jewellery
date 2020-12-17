@@ -1,7 +1,7 @@
 # **Rivercity Jewellery**
 
 
-View live project here 
+View live project [here](https://rivercity-jewellery.herokuapp.com/) 
 
 
 # Table of Contents
@@ -39,11 +39,11 @@ View live project here
 ### As a site user, I want to be able to:
 - Easily register for an account, so that I can be able to have a personal account and be able to view my profile 
 - Easily login and logout, so that I can access my personal account and easily logout to quit the session
-- Easily revoer my password if I forget it so that I can recover access to my account
+- Easily recover my password if I forget it so that I can recover access to my account
 - Have a personalised user account so that I can view my personal order history and order confirmations, and save my payment information
 - Easily navigate to the blog so that I can read the latest blog posts
-- See short desriptions of each blog, so that I can quickly decide which blog post I would like to read
-- Easily naigate to the blog post details so that I can read the full blog post to learn new information about jewellery
+- See short descriptions of each blog, so that I can quickly decide which blog post I would like to read
+- Easily navigate to the blog post details so that I can read the full blog post to learn new information about jewellery
 - Easily leave comments, pending approval by the site user so that I can express my thoughts on the blog post 
 
 ### As a site owner, I want to be able to:
@@ -54,12 +54,12 @@ View live project here
 
 ### As a shopper, I want to be able to:
 - Sort the list of available products so that I can easily identify the best rated, best priced and categorically sorted products
-- Sort a specific category of product so that I can find he best rated or best priced product within a specific category
-- Sort multiple categories of products simaltaneously so that I can find he best rated or best priced product within a specific category such as 'rings' or 'necklaces'
+- Sort a specific category of product so that I can find the best rated or best priced product within a specific category
+- Sort multiple categories of products simultaneously so that I can find the best rated or best priced product within a specific category such as 'rings' or 'necklaces'
 - Sort for a product by name, description and artist so that I can Find a specific product with known keywords
 - Easily see what I have searched for so that I can quickly see if the product I have searched for is available
 - Easily select the quantity of a product when purchasing it so that I can ensure I dont select the wrong product, or quantity
-- Adjust the quantitiy of items I would like to buy, so that I can make sure that I am buying the desired amount
+- Adjust the quantity of items I would like to buy, so that I can make sure that I am buying the desired amount
 - Easily see the subtotal for each item, so that I can get an idea of how much I am spending on each item 
 - Safely and securely use my card details to make the payment, so that I can have peace of mind that the payment is safe
 - Save my details on the site, so that I can be a return shopper without the hassle of re-entering all of my details 
@@ -100,41 +100,49 @@ The current site layout is different to the wireframes due to a change in image 
 ### Features on all pages
 
 #### Navbar
-- There will be a difference in the navbars that is depenndent if the user is logged in or not by using their username and password. A jinja loop is used to determine which navbar to display
-  - If not in session:  the homepage, listings page, register page and login page will be displayed. With a responsive navbar that contains links to the Home, Register and Login pages.
-  - If in session: the homepage, listings page, profile page, new listing page and logout will be displayed. This is also responsive. 
+The responsive navigation bar contains four main sections. The first is the Rivercity Jewellery logo which is just a heading, following the logo link to navigate the user back to the landing page. 
+
+The second section is the search bar, where the user can search for products by their name and description.
+
+The next section is the details for My Account page, with the dropdown menu directing the superuser to the Product and Blog management form, if the user is not a superuser, they can direct themselves to their Profile page or to log out. Then the Shopping cart is included, the user should be able to see the monetary value of the products they have added to their cart. 
+
+If the user is visiting the site and would like to register they can do so via the ‘My Account’ button. They will register themselves with their email address and receive an email confirmation once they have registered, the email confirmation will contain the link they need to follow to completely sign in. 
+
+The fourth section is the product navigation section. Where the user can navigate to different product categories. The user will also be able to navigate through to the Blog section. 
+
  
 #### Footer 
-- A footer is at the bottom of every page 
-  - The footer contains the contact details of the Adapt Easy creators, links to top of the page, login page and the register page. 
-  - The footer is responsive
+The footer was included to keep up with standard site navigation. The links to the social media accounts can be used to direct the user to the sites relevant social media. This footer also includes a quick copyright write up as this project is only for educational purposes. 
 
 ### Features of individual pages
 
 #### Home Page 
-- The hero image
-  - The hero image is on 3 people walking a safe distance from each other, wearing masks. This image is a sign of times and a sight that all of us are used to by now!
+The hero image is that of a woman swimming in dark water with attention drawn to a gold chain and pendant. I feel that this image plays well to the name of the store. 
 
- 
-- Extra Navigation Buttons
-
+You will find two call to action buttons on the landing page. The ‘Shop Now’ button directs the user to the All products page. The ‘Artist’s Blog’ page directs the user to the blog list 
 
 #### Products Pages
+The products page allows the user to see exactly which products are for sale. The products can be sorted by price, rating, name or category. Users can click on the product image to navigate to the product details page. They can then add the product to their shopping cart and proceed to checkout should they wish. 
 
-
+Superusers can update the details of a product easily either by clicking the delete button found under the items on the Product Details page, and then amending the form.
  
- #### Blog Page
- 
+#### Blog Page
+The blog app currently has 3 blog posts. When navigating to the blog page, the user will see a list of the blog posts. An image for each blog post has been included. As more blog posts are added by the superuser/site owner the user will be able to see them. Should the user click on the ‘See More’ button, they will be directed to the blog details page where they can read the blog post with more detail. 
 
-  
-#### Blog CRUD Pages
+The user will be able to leave comments on each of the blog posts in the blog details page. The comments will be approved by the site owner and can be deleted at any time. 
 
+The blog posts can also be edited and deleted by the superuser. This allows the site owner to be able to make changes to the blog list as they see fit. 
 
 #### Profile Page 
+Users will be able to navigate to their Profile page via the navigation bar at the top of site. This page is where they will be able to update their profile details like their shipping address and full name. Users will also be able to see an order history details. If they have made purchases before, they will be able to see then here, if not the order history will be empty. 
 
-
+#### Checkout
+Similar to the Profile page, this is where the user will be able to confirm the shipping address. The user will be prompted to fill out their information to complete the order here. The user will also be able to order a summary, including the quantity per product they are purchasing, the subtotal per product and then the grand total of their order. I have implemented Stripe to manage payments. Once the order has been completed and payment has been processed, the user will receive an email confirmation. 
 
 ## Features Left To Implement 
+- Defensive delete button: Currently, the Delete button to delete a product has no defence to stop it being accidentally/automatically pressed. A confirmation of delete should be added.
+
+- Leave reviews beneath products: Reading reviews are a great way to help users decide to purchase a product. This feature would be great to include in the future but was not seen as imperative for launch.
 
 
 
