@@ -194,49 +194,46 @@ For more information about the testing of this site, please continue to the [tes
 
 ## Local Deployment 
 
-### To run this project locally
+To run this project on your own IDE, you will need to ensure you have the following in place:
 
-In order to run this project locally, you will need to install the following:
-- An IDE, such as [VS Code](https://code.visualstudio.com/)
-- [PIP](https://pip.pypa.io/en/stable/installing/) to install the app requirements.
-- [Python3](https://www.python.org/downloads/) to run the application
-- [GIT](https://www.atlassian.com/git/tutorials/install-git) for version control
-- [MongoDB](https://www.mongodb.com/) to develop the database.
- -Once this is done, you will need need to download the .ZIP file of the repository, unzip this file and then in the CLI with GIT installed, enter the following command:
-  - ``https://github.com/lucyrush/adapt-easy.git``
+1. Having your own IDE such as [VS Code]() or [Pycharm.]() You will also need to ensure you have [PIP](), [Python3]() and [Git]() installed through the CLI on your machine.
 
-- Navigate to the to path using the ``cd`` command.
+2. In order to access the full functionality of this site, you will also need to have the following set up:
+- [Stripe]() (As the site is in development - you will not need to use AWS S3 for this)
 
-- Create a `.env` file with your credentials. Be sure to include your `MONGO_URI` and `SECRET_KEY` values.
+3. Then you will need to save a copy of this repository to your computer. This can be done by navigating to this page -https://github.com/lucyrush/rivercity_jewellery  then clicking on the Code dropdown & downloading the .zip file.
 
-- Install all requirements from the ``requirements.txt`` file using the following command:
-  - ``sudo -H pip3 -r requirements.txt``
+4. Then in the CLI, enter the following command:
+ - `git clone https://github.com/lucyrush/rivercity_jewellery`
+ 
+5. Open your IDE, unzip the folder downloaded, and use the cd command in the terminal to navigate to the root directory for the project. Install all the required modules using
+- `pip -r requirements.txt`
 
-- Sign up for a free account on MongoDB and create a new Database called adapt-easy. The names of the databases collections can be found in the database schema section.
+6. Create an env.py file
 
-- You should then be able to launch your app using the following command in your terminal:
-  - ``python app.py``
+7. In here, you need to have the following env variables:
+- os.environ["SECRET_KEY"] = This key is your Django secret key, that generates when you install Django.
+- os.environ["STRIPE_PUBLIC_KEY"] = This key is obtained when you set up stripe.
+- os.environ["STRIPE_SECRET_KEY"] = This key is obtained when you set up stripe.
+- os.environ["EMAIL_HOST_USER"] = This is your email address
+- os.environ["EMAIL_HOST_PASS"] = Your email password generated from apps. A how-to can be found here
+
+8. Migrate your models using :
+- `python manage.py migrate`
+ 
+9. You will need to create a superuser using:
+- `python3 manage.py createsuperuser`
+
+ 
+10. Navigate to the admin panel & create the Memberships in order to get the site to function correctly.
+
+11. This should be everything & your site should be running correctly now. You can run the project using
+- `python3 manage.py runserver`
+
 
 ## Remote Deployment 
 
-- Create a ``requirements.txt`` file using the terminal command ``pip freeze > requirements.txt``
-- Create a Procfile with the terminal command ``echo web: python app.py > Procfile``
-- ``git add`` and ``git commit`` the new requirements and Procfile and then ``git push`` the project to GitHub.
-- Navigate over to [Heroku](https://id.heroku.com/login)
-- Click the "new" button, give the project a name & set the region to Europe.
-- From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
-- Confirm the linking of the heroku app to the correct GitHub repository.
-- In the heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
-- Set the following config vars:
 
-| KEY           | Value         | 
-| ------------- |:-------------:| 
-| DEBUG          | FALSE         | 
-| IP            | 	0.0.0.0      |
-| PORT          | 5000           | 
-| MONGODBNAME   | <database_name>   | 
-| MONGO_URI      | mongodb+srv://:@<cluster_name>-qtxun.mongodb.net/<database_name>?retryWrites=true&w=majority  | 
-|SECRET_KEY     | <secret_key>    | 
 
 
 # Content
