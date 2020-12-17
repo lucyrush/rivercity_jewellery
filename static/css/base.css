@@ -1,16 +1,12 @@
 /* colour scheme
 Heavy Metal
 #222D22
-
 Brown Rust
 #B47040
-
 Slate Gray
 #64808A
-
 Gothic
 #719DA3
-
 */
 
 
@@ -39,15 +35,6 @@ body {
     height: calc(100vh - 164px);
     /* padding-top: 10%; */
 }
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
 
  h1 {
     letter-spacing: 8px;
@@ -67,8 +54,8 @@ body {
     align-items: center;
     display: inline-flex;
     justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+    /* height: 1.5rem;
+    width: 1.5rem; */
 }
 
 .text-black {
