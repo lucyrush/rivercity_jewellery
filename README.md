@@ -148,23 +148,36 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 # Technologies Used
 
-- Gitpod - Used as the IDE for this application.
-- Github used for the remote storage of the code online.
-
-## Font-End Technologies
-- HTML - Used to create the structure of the application.
-- CSS - Used as the base for styling.
-- Javascript - Used to create interactivity within the project
-- JQuery - Used for some of the main javascript functionality.
-.
+## Front-End Technologies
+- [HTML](https://html.com/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [JQuery](https://jquery.com/) to simplify DOM manipulation.
+- [Stripe](https://stripe.com/) as a payment platform to validate and accept credit card payments securely.
+- [AWS S3](http://aws.amazon.com/) to store images held in the database
+- [MDBoostrap](https://mdbootstrap.com/) a front end framework used to create responsive aspects across the site.
+- [Bootstrap](https://getbootstrap.com/) 4 to help with other responsive aspects of the site.
 
 ## Back-End Technologies
-- Flask - Used as the microframework.
-- Jinja - Used for templating with Flask.
-- Heroku - Used to host the application
-- Python - The back-end programming language.
-- Pymongo - Used to connect the python with the database.
-- MongoDB Atlas - Used to store the database.
+- [Python](https://www.python.org/) The backend programming language
+- [Django 3.0](https://docs.djangoproject.com/en/3.0/releases/3.0/) the backend framework for rapid development & clean designs
+- [Heroku](http://heroku.com/) the hosting platform used for deployment
+- [PostgreSQL](https://www.postgresql.org/) for production database, provided by heroku.
+- [SQLite](https://www.sqlite.org/index.html) for development database, provided by django.
+
+## Other Tools Used
+- [Gitpod](http://gitpod.io/) the cloud based IDE used for development
+- [Github](https://github.com/) to store and share all project code remotely.
+- [Balsamiq](https://balsamiq.com/?gclid=Cj0KCQjwo6D4BRDgARIsAA6uN1-NxDOthq9pGqYzB_1iRxlBvHVwi_4_LaZuGqQT46csctF0xCiTXUMaAqmuEALw_wcB) used to create low fidelity wireframes
+- [Google Sheets](https://www.google.com/sheets/about/) Used to create the database schema diagram
+- [Unsplash](https://unsplash.com/) used to get the images
+- [AutoPep8](https://pypi.org/project/autopep8/) a python add on, to format code into PEP8 formatting.
+- [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) to enable the creation, configuration, and management of AWS S3.
+- [Django allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) to create the signup/login functionality across the site.
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style Django forms.
+- [Django Storages](https://django-storages.readthedocs.io/en/latest/) a collection of custom storage backends with Django to work with boto3 and AWS S3.
+- [Gunicorn](https://pypi.org/project/gunicorn/) WSGI HTTP Server for UNIX to aid in the deployment of the Django project to Heroku.
+- [Pillow](https://pillow.readthedocs.io/en/stable/) a python imaging library to aid in processing image files to store in the database.
+- [Psycopg2](https://pypi.org/project/psycopg2/) as PostgreSQL database adapter for Python.
 
 ## Database Schema
 
