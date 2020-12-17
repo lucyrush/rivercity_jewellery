@@ -28,6 +28,11 @@ html {
     width: fit-content;
 }
 
+.logo-font {
+    color: #64808A;
+    text-transform: uppercase;
+}
+
 body {
     background: url('/media/home-background.jpg') no-repeat center center fixed;
     background-size: cover;

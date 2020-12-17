@@ -1,19 +1,10 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>
+            <a href="{% url 'products' %}" class="logo-font nav-link mr-5">All Products</a>
         </li>
-
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="earings-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font nav-link mr-5" href="#" id="earings-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Earings
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="earings-link">
@@ -25,7 +16,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="necklaces-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font nav-link mr-5" href="#" id="necklaces-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Necklaces
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="necklaces-link">
@@ -36,7 +27,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="piercings-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font nav-link" href="#" id="piercings-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Rings &amp; Piercings
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="piercings-link">
@@ -47,7 +38,7 @@
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a href="{% url 'post_list' %}" class="logo-font font-weight-bold nav-link text-black" id="blog-link" aria-haspopup="true" aria-expanded="false">
+            <a href="{% url 'post_list' %}" class="logo-font nav-link" id="blog-link" aria-haspopup="true" aria-expanded="false">
                Blog
             </a>
         </li>
