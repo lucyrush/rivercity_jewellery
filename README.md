@@ -233,7 +233,7 @@ To run this project on your own IDE, you will need to ensure you have the follow
 
 ## Remote Deployment 
 
-**First Steps**
+**Section One**
 
 1. Open up Heroku and log your account 
 2. Create a new app, called rivercity-jewellery, selecting the location nearest to you. In my case, Europe. 
@@ -253,6 +253,26 @@ To run this project on your own IDE, you will need to ensure you have the follow
 11. Back in settings.py, remove the new DB settings and uncomment out the original settings. This stops the database URL going into version control. 
 12. Update the Database settings in setting.py with an if statement, so that when we are running the app on Heroku it will connect to the database URL, otherwise we connect the site to SQL lite. 
 
+**Section Two**
+
+1. Now to install gunicorn which will act as our web server with the following command
+- `pip 3 install gunicorn`
+2. Freeze this to your requirements.txt file with the following command
+- `pip3 freeze  > requirements.txt`
+3. Create a Procfile to tell Heroku to create a web dynamo, which will run unicorn and serve or Django app
+4. Add the following to your Procfile 
+- `web: gunicorn rivercity_jewellery.wsgi:application`
+5. Log into Heroku via the terminal with the following command: 
+- `heroku login -i`
+6. Temporarily disable collect static using the following command: 
+- `heroku config:set DISABLE_COLLECTSTATIC=1 --app rivercity-jewellery`
+7. In settings.py, updated the `ALLOWED_HOSTS` settings. `Localhost` allows GitPod to still work too 
+- ALLOWED_HOSTS = ['rivercity-jewellery.herokuapp.com', 'localhost']
+8. Commit all of these changes to GitHub
+9. In Heroku, head to the Deploy Tab, select GitHub from the option, search for rivercity jewellery and clock connect 
+10. Then, click `Enable Automatically Deploy`. You can disable automatic deployment should you wish to. 
+
+Tada! Now the site should be deployed! 
 
 
 # Content
