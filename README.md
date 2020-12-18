@@ -233,6 +233,25 @@ To run this project on your own IDE, you will need to ensure you have the follow
 
 ## Remote Deployment 
 
+**First Steps**
+
+1. Open up Heroku and log your account 
+2. Create a new app, called rivercity-jewellery, selecting the location nearest to you. In my case, Europe. 
+3. Under the ‘Resources’ tab, search for and add the ‘Heroku Postgress DB’ app
+4. In the project terminal, install `dj_database_url` and `psycopg2` by using the following commands: 
+- `Pip3 install dj_database_url`
+- `Pip3 install psycopg2-binary`
+5. Next, freeze the requirements to requirements.txt to make sure Heroku installs all our apps’ requirements when we deploy the project. User the following command: 
+- `pip3 freeze > requirements.txt`
+6. In settings.py at the top of the file, import the DJ database: `import_dj_database_url`
+7. Comment out the current `DATABASE` settings (we will need them again later), and add:
+- ‘Default’: dj_database_url.parse( insert database URL here)
+8. Add the Database URL into the () which you can find in the Heroku app under Settings > Reveal Config Vars > Database URL
+9. Now run all the migrations to get our database set up: 
+- `python3 manage.py migrate`
+10. Next, create a superuser with the `python3 manage.py createsuperuser`
+11. Back in settings.py, remove the new DB settings and uncomment out the original settings. This stops the database URL going into version control. 
+12. Update the Database settings in setting.py with an if statement, so that when we are running the app on Heroku it will connect to the database URL, otherwise we connect the site to SQL lite. 
 
 
 
