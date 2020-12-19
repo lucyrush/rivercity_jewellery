@@ -9,11 +9,14 @@
 In addition to the full manual testing, I also decided to add some automated testing, as advised in the short testing section of the course. The automated testing can be improved.
 I am not 100% confident with automated testing just yet! 
 
-I created 12 automated tests in total. These include:
+I created 11 automated tests in total. These include:
 
 Checkout>tests.py: Order form testing
 Products>tests.py: Product form testing and Product page view test
 
+- In the terminal type the following command:
+  `python manage.py test <<app name>>`
+- The test results will be shown within the terminal.
 
 ### Validator Testing 
 
