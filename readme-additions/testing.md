@@ -4,6 +4,17 @@
 
 ## Code Testing 
 
+### Automated Testing 
+
+In addition to the full manual testing, I also decided to add some automated testing, as advised in the short testing section of the course. The automated testing can be improved.
+I am not 100% confident with automated testing just yet! 
+
+I created 12 automated tests in total. These include:
+
+Checkout>tests.py: Order form testing
+Products>tests.py: Product form testing and Product page view test
+
+
 ### Validator Testing 
 
 [W3C Markup Validation](https://validator.w3.org/nu/#textarea)
