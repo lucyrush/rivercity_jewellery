@@ -145,7 +145,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 ### Desktop Testing
 
 | Page          | Responsive    | Notes |
-| ------------- |:-------------:| ---------------:|
+| :------------- |:-------------:| :---------------:|
 | Index     | Y    | Fully Responsive. No horizontal scrollbar.  |
 | Products      |    Y   | Fully Responsive. No horizontal scrollbar.   |
 | Product Details |    Y   |  Fully Responsive. No horizontal scrollbar. The Image is rather large   |
@@ -160,7 +160,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 ### Tablet Testing
 
 | Page          | Responsive    | Notes |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| :-----:|
 | Index      | Y | Fully responsive, no horizontal scrollbar  |
 | Products      |   Y    |  Fully responsive, no horizontal scrollbar. 2 products per row work well  |
 | Product Details |  Y     |   Fully responsive, no horizontal scrollbar. Product details easy to read  |
@@ -175,7 +175,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 ### Mobile testing
 
 | Page          | Responsive    | Notes |
-| ------------- |:-------------:| -----:|
+| :-------------: |:-------------:| :-----:|
 | Index      | Y| Fully Responsive, footer looks nice |
 | Products      |   Y    |  Fully responsive there is noticable whitespace above header. Images better size |
 | Product Details |  Y     |   Fully responsive, added product to bad, success message works well  |
