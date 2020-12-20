@@ -1,3 +1,31 @@
+**Table of Contents**
+
+1. [Code Testing](#code-testing)
+  - [Validator Testing](#validator-testing)
+  - [Python Unit Testing](#python-unit-testing)
+2. [User Story Testing](#user-story-testing)
+3. [Manual Testing](#manual-tesing)
+  - [Lighthouse](#ighthouse)
+  - [Responsive Testing](#responsive-testing)
+   - [Desktop Testing](#desktop-testing)
+   - [Laptop Testing](#laptop-testing)
+   - [Tablet Testing](#tablet-testing)
+   - [Mobile Testing](#mobile-testing)
+4. [Bugs Discovered](#bugs-disccovered)
+  - [Resolved Bugs](#resolved-bugs)
+  - [Unresolved Bugs](#unresolved-bugs)
+5. [Defensive Design](#defensive-design)
+  - [Navbar](#navbar)
+  - [Footer](#footer)
+  - [Login/Signup](#login/signup)
+  - [Products](#products)
+  - [Checkout](#checkout)
+  - [Blog](#blog)
+
+
+
+
+
 # Mannual Testing 
 
 - this will be the testing documentation 
