@@ -1,5 +1,7 @@
 # **Rivercity Jewellery**
 
+Rivercity Jewellery is an online jewellery store that has been designed with simplicity in mind with hopes to spark appreciation for unique jewellery for everyone. 
+
 ![Header](readme-additions/header.JPG)
 
 View live project [here](https://rivercity-jewellery.herokuapp.com/) 
@@ -22,16 +24,14 @@ View live project [here](https://rivercity-jewellery.herokuapp.com/)
 4. [Technologies Used](#technologies-used)
   - [Front-End Technologies](#front-end-technologies)
   - [Back-End Technologies](#back-end-technologies)
+  - [Other Tools](#other-tools)
   - [Database Schema](#database-schema)
 5. [Testing](#testing)
-  - [Validator Testing](#validator-testing)
-  - [Functional Testing](#functional-testing)
 6. [Deployment](#deployment)
   - [Local Deployment](#local-deployment)
   - [Remote Deployment](#remote-deployment)
-7. [Content](#content)
-  - [Media](#media)
-  - [Credits](#credits)
+7. [Credits](#credits)
+8. [Acknowledgements](#acknowledgements)
 
 # User Experience (UX)
 
@@ -68,16 +68,27 @@ View live project [here](https://rivercity-jewellery.herokuapp.com/)
 
 ## Design
 
+Rivercity Jewellery was designed with functionality in mind, the design is meant to be kept simple with minimal use of colour and focus being on images, 
+the user journey and simplicity. 
+
+This project was aimed at avid jewellery lovers, who regularly struggle to find great jewellery to suit their own tast and style. 
 
 ### Colour Scheme
 
+Rivercity Jewellery was not intented to be overly colourful. As mentioned, it was designed with functionality in mind. 
 
+So, the three main colours seen are: 
+- White
+- Black 
+- Slate Gray (#64808A)
 
 ### Typography
 
-
+The primary font used is Roboto, using four different weights: 300,400,500,700
 
 ### Imagery
+
+Imagery is important to create an eye-catching site. There are images primarily on the Products and Blog pages. 
 
 :arrow_up: [Back to top](#table-of-contents)
 
@@ -133,7 +144,7 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 ## Features Left To Implement 
 - Defensive delete button: Currently, the Delete button to delete a product has no defence to stop it being accidentally/automatically pressed. A confirmation of delete should be added.
-
+- Social Media Login: Allowing users to log in with their Facebook or Google credentials.
 - Leave reviews beneath products: Reading reviews are a great way to help users decide to purchase a product. This feature would be great to include in the future but was not seen as imperative for launch.
 
 :arrow_up: [Back to top](#table-of-contents)
@@ -208,10 +219,10 @@ For more information about the testing of this site, please continue to the [tes
 
 To run this project on your own IDE, you will need to ensure you have the following in place:
 
-1. Having your own IDE such as [VS Code]() or [Pycharm.]() You will also need to ensure you have [PIP](), [Python3]() and [Git]() installed through the CLI on your machine.
+1. Having your own IDE such as [VS Code](https://code.visualstudio.com/) or [Pycharm.](https://www.jetbrains.com/pycharm/) You will also need to ensure you have [PIP](https://pypi.org/project/pipenv/), [Python3](https://www.python.org/downloads/) and [Git](https://git-scm.com/) installed through the CLI on your machine.
 
 2. In order to access the full functionality of this site, you will also need to have the following set up:
-- [Stripe]() (As the site is in development - you will not need to use AWS S3 for this)
+- [Stripe](https://stripe.com/en-ie) (As the site is in development - you will not need to use AWS S3 for this)
 
 3. Then you will need to save a copy of this repository to your computer. This can be done by navigating to this page -https://github.com/lucyrush/rivercity_jewellery  then clicking on the Code dropdown & downloading the .zip file.
 
@@ -288,17 +299,37 @@ Tada! Now the site should be deployed!
 
 :arrow_up: [Back to top](#table-of-contents)
 
-# Content
-
+# Credits
 
 ## Media
+- All of the Images were taken from [Unsplash](https://unsplash.com/)
+- The majority of the images were by [Joeyy Lee](https://unsplash.com/@joeyy_anne) and [Anna Elizabeth](https://unsplash.com/@shopannaelizabeth)
+ 
+## Code 
+- Some sections of the code layout were taken from the [MDBoostrap design block page.](https://mdbootstrap.com/docs/standard/design-blocks/trending/)
+- The blog model and implementation was based on the [Django Girls Tutorial.](https://tutorial.djangogirls.org/en/)
+- The blog comments model and implementation was adapted from the [Django Girls Comment Extension Tutorial.](https://tutorial-extensions.djangogirls.org/en/homework_create_more_models)
+- The products and checkout sections of the course was adapted from the [Boutique Ado Mini Project](https://github.com/lucyrush/boutique_ado_v1) from the [Code Institute](https://codeinstitute.net/) Full Stack course.
 
+## Content
+- The product details were written by myself 
+- The blog content was adapted from the [Gemologue by Liza Urla](https://gemologue.com/)
 
+# Acknowledgements
 
-## Credits
-- https://unsplash.com/photos/s8SJ8pmxPDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-- https://unsplash.com/photos/zTxp7jb5osM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+(Prep for my Oscar Winning Speech)
 
+I would like to thank the [Code Institute](https://codeinstitute.net/) for allowing me to complete the course! It has been an amazing learning journey; tough, long but most importantly - INSPIRING!
+
+Special thanks to the wonderful team I work with in Student Care. Neil, Claire, and Mark, you guys are amazing and I could not have done it without you. 
+
+A massive thanks is also owed to the fantastic Tutor Support for their help through the trickier parts of this project. 
+
+Thanks to my fantastic mentor, Spencer Barriball for the help with the project too and for also introducing me to the power of Django that I cannot wait to learn more about. 
+
+Lastly a big thanks to my partner, David, who would sit up on late nights with me and remind me that life does not have to be as stressful as we can make it to be. 
+
+Now, for the big bottle of bubbles that is waiting to be popped! :tropical_drink:
 
 :arrow_up: [Back to top](#table-of-contents)
 
