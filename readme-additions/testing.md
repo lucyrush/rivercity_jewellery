@@ -119,7 +119,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 ### Desktop Testing
 
 | Page          | Responsive    | Notes |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| ---------------:|
 | Index     | Y    | Fully Responsive. No horizontal scrollbar.  |
 | Products      |    Y   | Fully Responsive. No horizontal scrollbar.   |
 | Product Details |    Y   |  Fully Responsive. No horizontal scrollbar. The Image is rather large   |
