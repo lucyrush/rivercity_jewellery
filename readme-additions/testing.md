@@ -19,7 +19,7 @@
   - [Blog](#blog)
  
 
-# Code Testing 
+# Code Testing :relieved:
 
 ## Automated Testing 
 
@@ -68,7 +68,7 @@ There are no errors through the PEP8 check. However, there are a couple of highl
  - ‘Line too long’ Pages with error: settings.py, checkout>webhooks.py, checkout>webhook_handler.py, checkout>models.py These have been left as is as these lines should not be broken.
 
 
-# User Story Testing
+# User Story Testing :busts_in_silhouette:
 
 ## As a site user, I want to be able to:
 - Easily register for an account, so that I can be able to have a personal account and be able to view my profile
@@ -131,7 +131,7 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 
 # Manual Testing
 
-## Lighthouse
+## Lighthouse 
 
 - An audit was completed using Lighthouse on the Rivercity jewellery. 
 - Quite a low performance but upon completing audits of several other websites, such as: 
@@ -189,7 +189,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 | Sign Up |   Y    |  Fully responsive , no horizontal scrollbar   |
 | Login |    Y   |  Fully responsive, no horizontal scrollbar   |
 
-# Usability Testing
+# Usability Testing :flashlight:
 - A site-wide usability test was conducted. I asked my partner to help participate in the testing. The user was presented with the following aims:
     - You are an avid jewellery enthusiast. You are interested in buying yourself a new piece of jewellery at a treat, you deserve it!
     - Navigate to the Home page to see if you would prefer to go stright to the product or check out the blog.
@@ -206,7 +206,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
     - I was able to easily checkout a product, received the email and had a read through the blog. 
     - More work on the buttons for each page would be nice, making all product images the same size would be good as well
 
-# Defensive Design
+# Defensive Design :vertical_traffic_light:
 
 ## Navbar
 - All links were tested & deemed to be fully functional, directing users to the desired location.
@@ -235,5 +235,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 ## Blog
 - All links to other pages were checked & deemed rendering correctly.
 - Any forms that needed to be filled out flashed relevant errors if filled incorrectly. 
+
+![Alt Text](http://gph.is/2Em8pqH)
 
 :arrow_up: [Back to top](#code-testing)

@@ -35,7 +35,7 @@ View live project [here](https://rivercity-jewellery.herokuapp.com/)
 
 # User Experience (UX)
 
-## User Stories
+## User Stories :busts_in_silhouette:
 
 ### As a site user, I want to be able to:
 - Easily register for an account, so that I can be able to have a personal account and be able to view my profile 
@@ -94,7 +94,7 @@ View live project [here](https://rivercity-jewellery.herokuapp.com/)
 
 The current site layout is different to the wireframes due to a change in image choices and colour scheme.
 
-# Features
+# Features :sparkles:
 
 ## Existing Features 
 
@@ -147,7 +147,7 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 :arrow_up: [Back to top](#table-of-contents)
 
-# Technologies Used
+# Technologies Used :floppy_disk:
 
 ## Front-End Technologies
 - [HTML](https://html.com/)
@@ -187,11 +187,11 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 
 
-# Testing 
+# Testing :memo:
 
 For more information about the testing of this site, please continue to the [testing.md](readme-additions/testing.md) documentation
 
-# Deployment
+# Deployment :tada:
 
 ## Local Deployment 
 
@@ -277,15 +277,15 @@ Tada! Now the site should be deployed!
 
 :arrow_up: [Back to top](#table-of-contents)
 
-# Content
+# Content :ledger:
 
 
 
-## Media 
+## Media :tv:
 
 
 
-## Credits
+## Credits :pray:
 - https://unsplash.com/photos/s8SJ8pmxPDA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 - https://unsplash.com/photos/zTxp7jb5osM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
