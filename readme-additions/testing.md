@@ -127,6 +127,8 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 - Receive an email confirmation after checkout, so that I can keep the confirmation of what I have purchased in my records
     - The user will be sent an email with the order confirmation and order details to the email address they signed up with 
 
+:arrow_up: [Back to top](#code-testing)
+
 # Manual Testing
 
 ## Lighthouse
@@ -234,4 +236,4 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 - All links to other pages were checked & deemed rendering correctly.
 - Any forms that needed to be filled out flashed relevant errors if filled incorrectly. 
 
-[Back to top](#code-testing) :sunny: 
+:arrow_up: [Back to top](#code-testing)

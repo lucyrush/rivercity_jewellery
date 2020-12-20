@@ -5,7 +5,7 @@
 View live project [here](https://rivercity-jewellery.herokuapp.com/) 
 
 
-# Table of Contents
+# [Table of Contents](#table-of-contents)
 
 1. [User Experience](#user-experience(ux))
   - [User Stories](#user-stories)
@@ -79,6 +79,7 @@ View live project [here](https://rivercity-jewellery.herokuapp.com/)
 
 ### Imagery
 
+:arrow_up: [Back to top](#table-of-contents)
 
 ## Wireframes
 
@@ -144,7 +145,7 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 - Leave reviews beneath products: Reading reviews are a great way to help users decide to purchase a product. This feature would be great to include in the future but was not seen as imperative for launch.
 
-
+:arrow_up: [Back to top](#table-of-contents)
 
 # Technologies Used
 
@@ -274,6 +275,7 @@ To run this project on your own IDE, you will need to ensure you have the follow
 
 Tada! Now the site should be deployed! 
 
+:arrow_up: [Back to top](#table-of-contents)
 
 # Content
 
@@ -288,5 +290,5 @@ Tada! Now the site should be deployed!
 - https://unsplash.com/photos/zTxp7jb5osM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
 
-
+:arrow_up: [Back to top](#table-of-contents)
 
