@@ -1,5 +1,6 @@
 # **Rivercity Jewellery**
 
+![Header](readme-additions/header.JPG)
 
 View live project [here](https://rivercity-jewellery.herokuapp.com/) 
 

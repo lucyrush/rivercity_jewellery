@@ -1,3 +1,5 @@
+![Header](header.JPG)
+
 **Table of Contents**
 
 1. [Code Testing](#code-testing)
