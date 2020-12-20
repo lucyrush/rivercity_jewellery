@@ -178,7 +178,7 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 
 
-# Testing :memo:
+# Testing
 
 For more information about the testing of this site, please continue to the [testing.md](readme-additions/testing.md) documentation
 

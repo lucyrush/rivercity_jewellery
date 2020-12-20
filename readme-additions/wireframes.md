@@ -4,28 +4,28 @@ Below you will see the Wireframes for each of the pages.
 
 - Home: 
 
-![Home](readme-additions/home-wireframe.JPG)
+![Home](home-wireframe.JPG)
 
 - Sign In/Register:
  
-![Sign In/Register](readme-additions/signin-wireframes.JPG)
+![Sign In/Register](/signin-wireframes.JPG)
 
 - Products:
 
-![Products](readme-additions/products-wireframes.JPG)
+![Products](products-wireframes.JPG)
 
 - Product Details:
 
-![Product Details](readme-additions/prudctdeets-wireframes.JPG)
+![Product Details](prudctdeets-wireframes.JPG)
 
 - Checkout:
 
-![Checkout](readme-additions/checkout-wireframes.JPG)
+![Checkout](checkout-wireframes.JPG)
 
 - Blog:
 
-![Blog](readme-additions/blog-wireframes.JPG)
+![Blog](blog-wireframes.JPG)
 
 - BLog Details:
 
-![Blog Details](readme-additions/blogdeets-wireframes.JPG)
+![Blog Details](blogdeets-wireframes.JPG)
