@@ -7,9 +7,6 @@
 3. [Manual Testing](#manual-tesing)
   - [Lighthouse](#ighthouse)
   - [Responsive Testing](#responsive-testing)
-   - [Desktop Testing](#desktop-testing)
-   - [Tablet Testing](#tablet-testing)
-   - [Mobile Testing](#mobile-testing)
 4. [Usability Testing](#usability-testing)
 5. [Defensive Design](#defensive-design)
   - [Navbar](#navbar)
@@ -135,31 +132,31 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 
 | Page          | Responsive    | Notes |
 | ------------- |:-------------:| -----:|
-| Index      | |  |
-| Products      |       |    |
-| Product Details |       |     |
-| Shopping Bag |      |     |
-| Checkout |      |     |
-| Checkout Successful |       |    |
-| Blog |     |     |
-| Blog Details|      |     |
-| Sign Up |       |     |
-| Login |       |     |
+| Index      | Y |  |
+| Products      |   Y    |    |
+| Product Details |  Y     |     |
+| Shopping Bag |   Y   |     |
+| Checkout |    Y  |     |
+| Checkout Successful |  Y     |    |
+| Blog |  Y   |     |
+| Blog Details|  Y    |     |
+| Sign Up |  Y     |     |
+| Login |  Y     |     |
 
 ### Mobile testing
 
 | Page          | Responsive    | Notes |
 | ------------- |:-------------:| -----:|
-| Index      | |  |
-| Products      |       |    |
-| Product Details |       |     |
-| Shopping Bag |      |     |
-| Checkout |      |     |
-| Checkout Successful |       |    |
-| Blog |     |     |
-| Blog Details|      |     |
-| Sign Up |       |     |
-| Login |       |     |
+| Index      | Y| Fully Responsive, footer looks nice |
+| Products      |   Y    |  Fully responsive there is noticable whitespace above header. Images better size |
+| Product Details |  Y     |   Fully responsive, added product to bad, success message works well  |
+| Shopping Bag |    Y  |   Fully responsive with totals at the top of the page for easy reading  |
+| Checkout |   Y   |  Fully responsive, order summary and checkout form works well. Country easy to select on iPhone. Card details easy to enter with number pad on iPhone   |
+| Checkout Successful |   Y    | Fully responsive,  success message easily read. Buttons to blog responsive |
+| Blog |   Y  |   Fully responsive, easy to see which post I would like to read  |
+| Blog Details|    Y  |  Fully responsive, article read, image a good size, comment section responsive   |
+| Sign Up |   Y    |  Fully responsive , no horizontal scrollbar   |
+| Login |    Y   |  Fully responsive, no horizontal scrollbar   |
 
 # Usability Testing
 - A site-wide usability test was conducted. I asked my partner, David to help participate in the testing. The user was presented with the following aims:
