@@ -116,7 +116,8 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 
 I learned that higher markings in Accessibility, Best Practices & SEO were more frequent than having a high-performance rating.
 
-![Lighthouse](readme-additions/lighthouse.JPG)
+![Lighthouse](readme-additions/workspace/rivercity_jewellery/readme-additions/lighthouse.JPG)
+
 
 ## Responsive testing
 
