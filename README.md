@@ -195,7 +195,7 @@ After careful consideration and taking into account all the different parts of t
 
 Below you will see the structure of the database. 
 
-![scheme](db.JPG)
+![scheme](readme-additions/db.JPG)
 
 
 # Testing

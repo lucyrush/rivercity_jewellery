@@ -1,5 +1,7 @@
 **Wireframes**
 
+Back to [README.md](README.md)
+
 Below you will see the Wireframes for each of the pages. 
 
 - Home: 
@@ -29,3 +31,5 @@ Below you will see the Wireframes for each of the pages.
 - BLog Details:
 
 ![Blog Details](blogdeets-wireframes.JPG)
+
+Back to [README.md](README.md)
