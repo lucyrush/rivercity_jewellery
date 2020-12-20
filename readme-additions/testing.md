@@ -1,8 +1,8 @@
 **Table of Contents**
 
 1. [Code Testing](#code-testing)
+  - [Automated Testing](#automated-testing)
   - [Validator Testing](#validator-testing)
-  - [Python Unit Testing](#python-unit-testing)
 2. [User Story Testing](#user-story-testing)
 3. [Manual Testing](#manual-tesing)
   - [Lighthouse](#ighthouse)
@@ -21,18 +21,11 @@
   - [Products](#products)
   - [Checkout](#checkout)
   - [Blog](#blog)
+ 
 
+# Code Testing 
 
-
-
-
-# Mannual Testing 
-
-- this will be the testing documentation 
-
-## Code Testing 
-
-### Automated Testing 
+## Automated Testing 
 
 In addition to the full manual testing, I also decided to add some automated testing, as advised in the short testing section of the course. The automated testing can be improved.
 I am not 100% confident with automated testing just yet! 
@@ -46,7 +39,7 @@ Products>tests.py: Product form testing and Product page view test
   `python manage.py test <<app name>>`
 - The test results will be shown within the terminal.
 
-### Validator Testing 
+## Validator Testing 
 
 [W3C Markup Validation](https://validator.w3.org/nu/#textarea)
 
@@ -80,19 +73,82 @@ There are no errors through the PEP8 check. However, there are a couple of highl
  - ‘Line too long’ Pages with error: settings.py, checkout>webhooks.py, checkout>webhook_handler.py, checkout>models.py These have been left as is as these lines should not be broken.
 
 
-### Known Issues 
+# User Story Testing
 
+## As a site user, I want to be able to:
+- Easily register for an account, so that I can be able to have a personal account and be able to view my profile
+- Easily login and logout, so that I can access my personal account and easily logout to quit the session
+- Easily recover my password if I forget it so that I can recover access to my account
+- Have a personalised user account so that I can view my personal order history and order confirmations, and save my payment information
+- Easily navigate to the blog so that I can read the latest blog posts
+- See short descriptions of each blog, so that I can quickly decide which blog post I would like to read
+- Easily navigate to the blog post details so that I can read the full blog post to learn new information about jewellery
+- Easily leave comments, pending approval by the site user so that I can express my thoughts on the blog post 
 
-## Functional Testing
+## As a site owner, I want to be able to:
+- Easily add new products to sell, so that I can keep my store reflecting new products in my inventory
+- Easily edit/update existing products that are listed, so that I can keep my products listing up to date with the correct information 
+- Quickly delete products should they no longer be available to the shopper, so that I can make sure the shopper does not select a product that is no longer available 
+- Easily create new blog post, edit existing blog posts and delete blog posts, so that I can keep my blog up to date with new posts and delete post that may no longer be relevant
 
-Testing User Stories from User Experience (UX) Section
+## As a shopper, I want to be able to:
+- Sort the list of available products so that I can easily identify the best rated, best priced and categorically sorted products
+- Sort a specific category of product so that I can find the best rated or best priced product within a specific category
+- Sort multiple categories of products simultaneously so that I can find the best rated or best priced product within a specific category such as 'rings' or 'necklaces'
+- Sort for a product by name, description and artist so that I can Find a specific product with known keywords
+- Easily see what I have searched for so that I can quickly see if the product I have searched for is available
+- Easily select the quantity of a product when purchasing it so that I can ensure I dont select the wrong product, or quantity
+- Adjust the quantity of items I would like to buy, so that I can make sure that I am buying the desired amount
+- Easily see the subtotal for each item, so that I can get an idea of how much I am spending on each item 
+- Safely and securely use my card details to make the payment, so that I can have peace of mind that the payment is safe
+- Save my details on the site, so that I can be a return shopper without the hassle of re-entering all of my details 
+- View an order confirmation after checkout, so that I can verify that I have not made any mistakes
+- Receive an email confirmation after checkout, so that I can keep the confirmation of what I have purchased in my records
 
-### First Time Visitor Goals
+# Manual Testing
 
+## Lighthouse
 
+- An audit was completed using Lighthouse on the Rivercity jewellery. 
+- Quite a low performance but upon completing audits of several other websites, such as: 
+ - [Code Like a Girl](https://code.likeagirl.io/) 
+ - [Medium](https://medium.com/) 
+- I learned that higher markings in Accessibility, Best Practices & SEO were more frequent than having a high-performance rating.
 
-### Returning Visitor Goals
+![lighthouse](readme-additions/lighthouse.JPG)
 
+## Responsive testing
 
+### Desktop Testing
 
-### Frequent User Goals
+### Laptop Testing
+
+### Tablet Testing
+
+### Mobile testing
+
+# Bugs disccovered
+
+## Resolved Bugs
+## Unresolved Bugs
+
+# Defensive Design
+
+## Navbar
+- 
+- 
+## Footer
+- 
+- 
+## Login/Signup
+- 
+- 
+## Products
+- 
+- 
+## Checkout
+- 
+- 
+## Blog
+- 
+- 
