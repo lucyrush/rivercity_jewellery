@@ -237,7 +237,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 - All links to other pages were checked & deemed rendering correctly.
 - Any forms that needed to be filled out flashed relevant errors if filled incorrectly. 
 
-![Alt Text](http://gph.is/2Em8pqH)
+![testing](https://media.giphy.com/media/3orieKKmYyvUdR3RkY/giphy.gif)
 
 [Back to top](#code-testing)
 
