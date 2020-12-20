@@ -188,7 +188,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 | Login |    Y   |  Fully responsive, no horizontal scrollbar   |
 
 # Usability Testing
-- A site-wide usability test was conducted. I asked my partner, David to help participate in the testing. The user was presented with the following aims:
+- A site-wide usability test was conducted. I asked my partner to help participate in the testing. The user was presented with the following aims:
     - You are an avid jewellery enthusiast. You are interested in buying yourself a new piece of jewellery at a treat, you deserve it!
     - Navigate to the Home page to see if you would prefer to go stright to the product or check out the blog.
     - You decide that you would like to know more about jewellery, so you head to the blog. You browse through the blog list and pick a post to read in full.
@@ -201,8 +201,8 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
     - You can now see a breakdown of your Rivercity jewellery purchases on your profile page! 
 
 - User Testing Feedback
-    - 
-    - 
+    - I was able to easily checkout a product, received the email and had a read through the blog. 
+    - More work on the buttons for each page would be nice, making all product images the same size would be good as well
 
 # Defensive Design
 
@@ -233,3 +233,5 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 ## Blog
 - All links to other pages were checked & deemed rendering correctly.
 - Any forms that needed to be filled out flashed relevant errors if filled incorrectly. 
+
+[Back to top](#code-testing) :sunny: 
