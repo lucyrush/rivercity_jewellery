@@ -132,16 +132,16 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 
 | Page          | Responsive    | Notes |
 | ------------- |:-------------:| -----:|
-| Index      | Y |  |
-| Products      |   Y    |    |
-| Product Details |  Y     |     |
-| Shopping Bag |   Y   |     |
-| Checkout |    Y  |     |
-| Checkout Successful |  Y     |    |
-| Blog |  Y   |     |
-| Blog Details|  Y    |     |
-| Sign Up |  Y     |     |
-| Login |  Y     |     |
+| Index      | Y | Fully responsive, no horizontal scrollbar  |
+| Products      |   Y    |  Fully responsive, no horizontal scrollbar. 2 products per row work well  |
+| Product Details |  Y     |   Fully responsive, no horizontal scrollbar. Product details easy to read  |
+| Shopping Bag |   Y   |   Fully responsive, no horizontal scrollbar   |
+| Checkout |    Y  |   Fully responsive, no horizontal scrollbar   |
+| Checkout Successful |  Y     |  Fully responsive, no horizontal scrollbar   |
+| Blog |  Y   |   Fully responsive, no horizontal scrollbar. Blog post easy to read  |
+| Blog Details|  Y    |   Fully responsive, no horizontal scrollbar. Comment section easy to read  |
+| Sign Up |  Y     |   Fully responsive, no horizontal scrollbar   |
+| Login |  Y     |   Fully responsive, no horizontal scrollbar   |
 
 ### Mobile testing
 
