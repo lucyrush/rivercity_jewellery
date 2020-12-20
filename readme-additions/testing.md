@@ -8,7 +8,6 @@
   - [Lighthouse](#ighthouse)
   - [Responsive Testing](#responsive-testing)
    - [Desktop Testing](#desktop-testing)
-   - [Laptop Testing](#laptop-testing)
    - [Tablet Testing](#tablet-testing)
    - [Mobile Testing](#mobile-testing)
 4. [Bugs Discovered](#bugs-disccovered)
@@ -116,18 +115,54 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 
 I learned that higher markings in Accessibility, Best Practices & SEO were more frequent than having a high-performance rating.
 
-![Lighthouse](readme-additions/workspace/rivercity_jewellery/readme-additions/lighthouse.JPG)
-
+![Lighthouse](lighthouse.JPG)
 
 ## Responsive testing
 
 ### Desktop Testing
 
-### Laptop Testing
+| Page          | Responsive    | Notes |
+| ------------- |:-------------:| -----:|
+| Index      | |  |
+| Products      |       |    |
+| Product Details |       |     |
+| Shopping Bag |      |     |
+| Checkout |      |     |
+| Checkout Successful |       |    |
+| Blog |     |     |
+| Blog Details|      |     |
+| Sign Up |       |     |
+| Login |       |     |
 
 ### Tablet Testing
 
+| Page          | Responsive    | Notes |
+| ------------- |:-------------:| -----:|
+| Index      | |  |
+| Products      |       |    |
+| Product Details |       |     |
+| Shopping Bag |      |     |
+| Checkout |      |     |
+| Checkout Successful |       |    |
+| Blog |     |     |
+| Blog Details|      |     |
+| Sign Up |       |     |
+| Login |       |     |
+
 ### Mobile testing
+
+| Page          | Responsive    | Notes |
+| ------------- |:-------------:| -----:|
+| Index      | |  |
+| Products      |       |    |
+| Product Details |       |     |
+| Shopping Bag |      |     |
+| Checkout |      |     |
+| Checkout Successful |       |    |
+| Blog |     |     |
+| Blog Details|      |     |
+| Sign Up |       |     |
+| Login |       |     |
 
 # Bugs disccovered
 
