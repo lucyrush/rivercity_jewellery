@@ -113,9 +113,10 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 - Quite a low performance but upon completing audits of several other websites, such as: 
  - [Code Like a Girl](https://code.likeagirl.io/) 
  - [Medium](https://medium.com/) 
-- I learned that higher markings in Accessibility, Best Practices & SEO were more frequent than having a high-performance rating.
 
-![lighthouse](readme-additions/lighthouse.JPG)
+I learned that higher markings in Accessibility, Best Practices & SEO were more frequent than having a high-performance rating.
+
+![Lighthouse](readme-additions/lighthouse.JPG)
 
 ## Responsive testing
 
