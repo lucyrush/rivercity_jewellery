@@ -99,17 +99,31 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 
 ## As a shopper, I want to be able to:
 - Sort the list of available products so that I can easily identify the best rated, best priced and categorically sorted products
+    - User is able to navigate to the 'All products' page, where they can use the sort by feature to sort the products by price, rating, name or category. 
 - Sort a specific category of product so that I can find the best rated or best priced product within a specific category
+    - User can navigate to a more specific category of product and sort by feature to sort the products by price, rating, name or category
 - Sort multiple categories of products simultaneously so that I can find the best rated or best priced product within a specific category such as 'rings' or 'necklaces'
-- Sort for a product by name, description and artist so that I can Find a specific product with known keywords
+    - User can choose the 'All Earrings', 'All Necklaces', or 'All Rings & Peircings' buttons in the top nav bar to sort by multiple categories
+- Sort for a product by name, description so that I can find a specific product with known keywords
+    - User can use the top search function to sort products by keywords they searched for 
 - Easily see what I have searched for so that I can quickly see if the product I have searched for is available
+    - User will be able to see the keyword they searched for
 - Easily select the quantity of a product when purchasing it so that I can ensure I dont select the wrong product, or quantity
+    - User can use the quantity increment or decrement buttons to change the quantity of the products to add to Shopping bag 
 - Adjust the quantity of items I would like to buy, so that I can make sure that I am buying the desired amount
-- Easily see the subtotal for each item, so that I can get an idea of how much I am spending on each item 
+    - Users can adjust the number of a specific product with the quantity increment or decrement buttons
+    - User can then either update or remove the items from their Shopping bag 
+- Easily see the subtotal for each item, so that I can get an idea of how much I am spending on each item
+    - The subtotal is available to the user in the shopping bag for each product 
 - Safely and securely use my card details to make the payment, so that I can have peace of mind that the payment is safe
+    - User can use their card details to make secure payments with Stripe
 - Save my details on the site, so that I can be a return shopper without the hassle of re-entering all of my details 
-- View an order confirmation after checkout, so that I can verify that I have not made any mistakes
+    - The user can easily save their details with the 'Update Profile' button 
+- View an order confirmation after Checkout
+    - User will be directed to a 'Checkout Successful' page where they will be able to see the order details 
+    - The user will also be sent an email with the order confirmation and order details to the email address they signed up with
 - Receive an email confirmation after checkout, so that I can keep the confirmation of what I have purchased in my records
+    - The user will be sent an email with the order confirmation and order details to the email address they signed up with 
 
 # Manual Testing
 
