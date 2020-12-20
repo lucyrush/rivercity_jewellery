@@ -18,7 +18,7 @@
   - [Checkout](#checkout)
   - [Blog](#blog)
  
-Back to [README.md](README.md)
+Back to [README.md](https://github.com/lucyrush/rivercity_jewellery#table-of-contents)
 
 # Code Testing
 
@@ -241,4 +241,4 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 
 [Back to top](#code-testing)
 
-Back to [README.md](README.md)
+Back to [README.md](https://github.com/lucyrush/rivercity_jewellery#table-of-contents)

@@ -1,6 +1,6 @@
 **Wireframes**
 
-Back to [README.md](README.md)
+Back to [README.md](https://github.com/lucyrush/rivercity_jewellery#table-of-contents)
 
 Below you will see the Wireframes for each of the pages. 
 
@@ -32,4 +32,4 @@ Below you will see the Wireframes for each of the pages.
 
 ![Blog Details](blogdeets-wireframes.JPG)
 
-Back to [README.md](README.md)
+Back to [README.md](https://github.com/lucyrush/rivercity_jewellery#table-of-contents)
