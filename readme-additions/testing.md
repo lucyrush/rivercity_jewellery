@@ -104,8 +104,8 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 
 - An audit was completed using Lighthouse on the Rivercity jewellery. 
 - Quite a low performance but upon completing audits of several other websites, such as: 
- - [Code Like a Girl](https://code.likeagirl.io/) 
- - [Medium](https://medium.com/) 
+    - [Code Like a Girl](https://code.likeagirl.io/) 
+    - [Medium](https://medium.com/) 
 
 I learned that higher markings in Accessibility, Best Practices & SEO were more frequent than having a high-performance rating.
 
@@ -178,20 +178,29 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 # Defensive Design
 
 ## Navbar
-- 
-- 
+- All links were tested & deemed to be fully functional, directing users to the desired location.
+- Logo redirects the user to the index page
+
 ## Footer
-- 
-- 
+- Icons navigate to relevant external links when clicked & a new tab is opened for navigating to this page.
+
 ## Login/Signup
-- 
-- 
+- Links in these pages functioned correctly
+- Buttons performed desired actions.
+- Required fields in forms rendered an error when not filled correctly.
+- Messages displayed if the information was submitted incorrectly.
+
 ## Products
-- 
-- 
+- All links to other pages were checked & deemed rendering correctly.
+- Buttons performed the desired actions.
+- Any forms that needed to be filled out flashed relevant errors if filled incorrectly.
+- Error messages flashed as desired when forms or pages were submitted incorrectly.
+
 ## Checkout
-- 
-- 
+- All links to other pages were checked & deemed rendering correctly.
+- Any forms that needed to be filled out flashed relevant errors if filled incorrectly.
+- Error messages flashed as desired when forms or pages were submitted incorrectly.
+
 ## Blog
-- 
-- 
+- All links to other pages were checked & deemed rendering correctly.
+- Any forms that needed to be filled out flashed relevant errors if filled incorrectly. 
