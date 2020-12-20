@@ -19,7 +19,7 @@
   - [Blog](#blog)
  
 
-# Code Testing :relieved:
+# Code Testing
 
 ## Automated Testing 
 
@@ -68,7 +68,7 @@ There are no errors through the PEP8 check. However, there are a couple of highl
  - ‘Line too long’ Pages with error: settings.py, checkout>webhooks.py, checkout>webhook_handler.py, checkout>models.py These have been left as is as these lines should not be broken.
 
 
-# User Story Testing :busts_in_silhouette:
+# User Story Testing
 
 ## As a site user, I want to be able to:
 - Easily register for an account, so that I can be able to have a personal account and be able to view my profile
@@ -189,7 +189,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 | Sign Up |   Y    |  Fully responsive , no horizontal scrollbar   |
 | Login |    Y   |  Fully responsive, no horizontal scrollbar   |
 
-# Usability Testing :flashlight:
+# Usability Testing
 - A site-wide usability test was conducted. I asked my partner to help participate in the testing. The user was presented with the following aims:
     - You are an avid jewellery enthusiast. You are interested in buying yourself a new piece of jewellery at a treat, you deserve it!
     - Navigate to the Home page to see if you would prefer to go stright to the product or check out the blog.
@@ -238,4 +238,4 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 
 ![Alt Text](http://gph.is/2Em8pqH)
 
-:arrow_up: [Back to top](#code-testing)
+[Back to top](#code-testing)
