@@ -30,9 +30,8 @@ In addition to the full manual testing, I also decided to add some automated tes
 I am not 100% confident with automated testing just yet! 
 
 I created 11 automated tests in total. These include:
-
-Checkout>tests.py: Order form testing
-Products>tests.py: Product form testing and Product page view test
+- Checkout>tests.py: Order form testing
+- Products>tests.py: Product form testing and Product page view test
 
 - In the terminal type the following command:
   `python manage.py test <<app name>>`
@@ -43,10 +42,10 @@ Products>tests.py: Product form testing and Product page view test
 [W3C Markup Validation](https://validator.w3.org/nu/#textarea)
 
 - HTML 
-
+    - No errors were returned 
   
 - CSS
- - No errors or warnings displayed
+    - No errors or warnings displayed
  
 
  [JSHINT](https://jshint.com/)
@@ -164,10 +163,22 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 | Sign Up |       |     |
 | Login |       |     |
 
-# Bugs disccovered
+# Usability Testing
+- A site-wide usability test was conducted. The user was presented with the following aims:
+    - You are an avid jewellery enthusiast. You are interested in buying yourself a new piece of jewellery at a treat, you deserve it!
+    - Navigate to the Home page to see if you would prefer to go stright to the product or check out the blog.
+    - You decide that you would like to know more about jewellery, so you head to the blog. You browse through the blog list and pick a post to read in full.
+    - You decide you would like to set up your own profile page, enter your details for convenience. You register with your email and confirm your registration by following the link sent to you via email. 
+    - You know would like to buy a pair of earrings. You navigate to the 'Earrings' button and decide to check out 'All Earrings'
+    - You have great taste so you decide to buy a pair of the Skew Silver Hoops. 
+    - Now you add the earrings to your bag and head to checkout 
+    - You should now be able to easily enter your shipping details, card details and complete the order. 
+    - The payment went through, you can now review your order on the site and in the email that was sent to your email address, your item is on the way! 
+    - You can now see a breakdown of your Rivercity jewellery purchases on your profile page! 
 
-## Resolved Bugs
-## Unresolved Bugs
+- User Testing Feedback
+    - 
+    - 
 
 # Defensive Design
 
