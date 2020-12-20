@@ -329,7 +329,9 @@ Thanks to my fantastic mentor, Spencer Barriball for the help with the project t
 
 Lastly a big thanks to my partner, David, who would sit up on late nights with me and remind me that life does not have to be as stressful as we can make it to be. 
 
-Now, for the big bottle of bubbles that is waiting to be popped! :tropical_drink:
+Now, for the big bottle of bubbles that is waiting to be popped!
+
+![done](https://media.giphy.com/media/l4Jzgmad24DGBqQ4U/giphy.gif)
 
 :arrow_up: [Back to top](#table-of-contents)
 
