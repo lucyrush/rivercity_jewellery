@@ -70,19 +70,32 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 
 ## As a site user, I want to be able to:
 - Easily register for an account, so that I can be able to have a personal account and be able to view my profile
+    - User is able to easily register an account, confirm registration via the email sent and view their profile with their details saved. 
 - Easily login and logout, so that I can access my personal account and easily logout to quit the session
-- Easily recover my password if I forget it so that I can recover access to my account
+    - User is able to quickly logout of their profile via the 'Logout' button in the navbar
 - Have a personalised user account so that I can view my personal order history and order confirmations, and save my payment information
+    - User is able to easily navigate to the 'Profile' page where they can update their information
 - Easily navigate to the blog so that I can read the latest blog posts
+    - User can follow the prompt on the home page, the link in the nav bar or the link to the blog after checkout success to get to the blog list
 - See short descriptions of each blog, so that I can quickly decide which blog post I would like to read
+    - User is able to see the blog text in the blog list 
 - Easily navigate to the blog post details so that I can read the full blog post to learn new information about jewellery
-- Easily leave comments, pending approval by the site user so that I can express my thoughts on the blog post 
+    - User can follow the 'Read More' button to see the full blog post 
+- Easily leave comments, pending approval by the site owner so that I can express my thoughts on the blog post 
+    - User can easily leave comments, with their name and comment text 
 
 ## As a site owner, I want to be able to:
 - Easily add new products to sell, so that I can keep my store reflecting new products in my inventory
+    - Site owner can navigate to the 'Product Management' page in the header, use the form to add an image, if site owner does not include an image, the 'no-image' image will show
 - Easily edit/update existing products that are listed, so that I can keep my products listing up to date with the correct information 
+    - Site owner can navigate to the edit profuct feature via the product details. Site owners can update the product accordingly. 
 - Quickly delete products should they no longer be available to the shopper, so that I can make sure the shopper does not select a product that is no longer available 
+    - Site owners can esily delete the product by following the 'Delete' button in the product details page
 - Easily create new blog post, edit existing blog posts and delete blog posts, so that I can keep my blog up to date with new posts and delete post that may no longer be relevant
+    - Site owner can navigate to the 'Add a blog post' page in the header, use the form to add an image, if site owner does not include an image, the 'no-image' image will show
+    - Site owners can edit their blog posts accordingly
+    - Upon testing, the deete function was not working and a 'Not Found' error was returned. This was due to a small error in the delete post url. It is now fixed, the site owner is able to delete a blog post.
+    - The site owner will be redirected to the Blog list page once they delete a post 
 
 ## As a shopper, I want to be able to:
 - Sort the list of available products so that I can easily identify the best rated, best priced and categorically sorted products

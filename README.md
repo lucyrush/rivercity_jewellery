@@ -39,7 +39,6 @@ View live project [here](https://rivercity-jewellery.herokuapp.com/)
 ### As a site user, I want to be able to:
 - Easily register for an account, so that I can be able to have a personal account and be able to view my profile 
 - Easily login and logout, so that I can access my personal account and easily logout to quit the session
-- Easily recover my password if I forget it so that I can recover access to my account
 - Have a personalised user account so that I can view my personal order history and order confirmations, and save my payment information
 - Easily navigate to the blog so that I can read the latest blog posts
 - See short descriptions of each blog, so that I can quickly decide which blog post I would like to read
