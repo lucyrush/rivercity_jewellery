@@ -173,9 +173,29 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 ## Database Schema
 
+- Django makes use of the SQL Database,
+    - Throughout development, I used the SQLite Database.
+    - Once deployed, the database was moved over to PostgreSQL which was provided by Heroku.
 
+After careful consideration and taking into account all the different parts of the website and needs of the database, I designed the schema in the following sections/models: 
 
+- user_profile: These are the details that the user saves to their profile for quick checkouts in the future. The username, email address and password details are set when the user registers for the site, and the delivery details are added when the user makes a purchase and selects to save those details to their profile.
 
+- order: This includes the overall order in full, including the delivery details from (from or added to the user profile) and the order_line_items.
+
+- order_line_items: This includes details of each product the user orders, the details of each product are linked to the products section.
+
+- products: This includes all the information related to each product, including the product item price, SKU, image, name, descriptions, category. Products can only be added by a Superuser/Authenticated user.
+
+- category: Linking to the category field in the products section, the Category model simply holds the categories which are chosen in the product model. These categories are pre-set and can only be modified or added to by a Superuser/Authenticated user.
+
+- blog: This section is non-relational to the rest of the database, and it holds details of the blog posts including the blog title, author, status, image, image_url and the post itself. The blog can only be added by a Superuser/Authenticated user.
+
+- blog Comment: The blog comment models also require a name, comment body, date it was created on and the active status (approved). THe Superuser will be able to approve the comment
+
+Below you will see the structure of the database. 
+
+![scheme](db.JPG)
 
 
 # Testing

@@ -8,7 +8,7 @@ Below you will see the Wireframes for each of the pages.
 
 - Sign In/Register:
  
-![Sign In/Register](/signin-wireframes.JPG)
+![Sign In/Register](signin-wireframes.JPG)
 
 - Products:
 
