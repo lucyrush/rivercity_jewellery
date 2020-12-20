@@ -10,9 +10,7 @@
    - [Desktop Testing](#desktop-testing)
    - [Tablet Testing](#tablet-testing)
    - [Mobile Testing](#mobile-testing)
-4. [Bugs Discovered](#bugs-disccovered)
-  - [Resolved Bugs](#resolved-bugs)
-  - [Unresolved Bugs](#unresolved-bugs)
+4. [Usability Testing](#usability-testing)
 5. [Defensive Design](#defensive-design)
   - [Navbar](#navbar)
   - [Footer](#footer)
@@ -122,16 +120,16 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 
 | Page          | Responsive    | Notes |
 | ------------- |:-------------:| -----:|
-| Index      | |  |
-| Products      |       |    |
-| Product Details |       |     |
-| Shopping Bag |      |     |
-| Checkout |      |     |
-| Checkout Successful |       |    |
-| Blog |     |     |
-| Blog Details|      |     |
-| Sign Up |       |     |
-| Login |       |     |
+| Index     | Y    | Fully Responsive. No horizontal scrollbar.  |
+| Products      |    Y   | Fully Responsive. No horizontal scrollbar.   |
+| Product Details |    Y   |  Fully Responsive. No horizontal scrollbar. The Image is rather large   |
+| Shopping Bag |   Y   | Fully Responsive. No horizontal scrollbar. Easy to read   |
+| Checkout |    Y  | Fully Responsive. No horizontal scrollbar.     |
+| Checkout Successful |    Y   |   Fully Responsive. No horizontal scrollbar. Checkout success message is helpful |
+| Blog |   Y  | Fully Responsive. No horizontal scrollbar. Blog posts are easily distinguisable    |
+| Blog Details|   Y   | Fully Responsive. No horizontal scrollbar. Easy to read commet secton    |
+| Sign Up |   Y    |   Fully Responsive. No horizontal scrollbar. Footer is not fixed to bottom  |
+| Login |    Y   |   Fully Responsive. No horizontal scrollbar. Footer isn't fixed to bottom  |
 
 ### Tablet Testing
 
@@ -164,7 +162,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
 | Login |       |     |
 
 # Usability Testing
-- A site-wide usability test was conducted. The user was presented with the following aims:
+- A site-wide usability test was conducted. I asked my partner, David to help participate in the testing. The user was presented with the following aims:
     - You are an avid jewellery enthusiast. You are interested in buying yourself a new piece of jewellery at a treat, you deserve it!
     - Navigate to the Home page to see if you would prefer to go stright to the product or check out the blog.
     - You decide that you would like to know more about jewellery, so you head to the blog. You browse through the blog list and pick a post to read in full.
