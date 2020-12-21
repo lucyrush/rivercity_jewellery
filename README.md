@@ -1,8 +1,9 @@
-# **Rivercity Jewellery**
+
+<h1 align=center id=top> Rivercity Jewellery </h2>
 
 Rivercity Jewellery is an online jewellery store that has been designed with simplicity in mind with hopes to spark appreciation for unique jewellery for everyone. 
 
-<h2 align=center id="top"><img src="readme-additions/mock.png" max-height=200px></h2>
+<h2 align=center id="top"><img src="readme-additions/mock1.png"></h2>
 
 View live project [here](https://rivercity-jewellery.herokuapp.com/) 
 
