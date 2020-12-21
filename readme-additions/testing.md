@@ -44,7 +44,6 @@ I created 11 automated tests in total. These include:
   
 - CSS
     - No errors or warnings displayed
- 
 
  [JSHINT](https://jshint.com/)
 
@@ -212,7 +211,7 @@ I learned that higher markings in Accessibility, Best Practices & SEO were more 
     - I was able to easily checkout a product, received the email and had a read through the blog. 
     - More work on the buttons for each page would be nice, making all product images the same size would be good as well
 
-# Defensive Design :vertical_traffic_light:
+# Defensive Design
 
 ## Navbar
 - All links were tested & deemed to be fully functional, directing users to the desired location.

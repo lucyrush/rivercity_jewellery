@@ -103,44 +103,36 @@ To navigate to the Wireframes for each page, please continue to the [wireframes.
 ### Features on all pages
 
 #### Navbar
-The responsive navigation bar contains four main sections. The first is the Rivercity Jewellery logo which is just a heading, following the logo link to navigate the user back to the landing page. 
-
-The second section is the search bar, where the user can search for products by their name and description.
-
-The next section is the details for My Account page, with the dropdown menu directing the superuser to the Product and Blog management form, if the user is not a superuser, they can direct themselves to their Profile page or to log out. Then the Shopping cart is included, the user should be able to see the monetary value of the products they have added to their cart. 
-
-If the user is visiting the site and would like to register they can do so via the ‘My Account’ button. They will register themselves with their email address and receive an email confirmation once they have registered, the email confirmation will contain the link they need to follow to completely sign in. 
-
-The fourth section is the product navigation section. Where the user can navigate to different product categories. The user will also be able to navigate through to the Blog section. 
+- The responsive navigation bar contains four main sections. The first is the Rivercity Jewellery logo which is just a heading, following the logo link to navigate the user back to the landing page. 
+- The second section is the search bar, where the user can search for products by their name and description.
+- The next section is the details for My Account page, with the dropdown menu directing the superuser to the Product and Blog management form, if the user is not a superuser, they can direct themselves to their Profile page or to log out. Then the Shopping cart is included, the user should be able to see the monetary value of the products they have added to their cart. 
+- If the user is visiting the site and would like to register they can do so via the ‘My Account’ button. They will register themselves with their email address and receive an email confirmation once they have registered, the email confirmation will contain the link they need to follow to completely sign in. 
+- The fourth section is the product navigation section. Where the user can navigate to different product categories. The user will also be able to navigate through to the Blog section. 
 
  
 #### Footer 
-The footer was included to keep up with standard site navigation. The links to the social media accounts can be used to direct the user to the sites relevant social media. This footer also includes a quick copyright write up as this project is only for educational purposes. 
+- The footer was included to keep up with standard site navigation. The links to the social media accounts can be used to direct the user to the sites relevant social media. This footer also includes a quick copyright write up as this project is only for educational purposes. 
 
 ### Features of individual pages
 
 #### Home Page 
-The hero image is that of a woman swimming in dark water with attention drawn to a gold chain and pendant. I feel that this image plays well to the name of the store. 
-
-You will find two call to action buttons on the landing page. The ‘Shop Now’ button directs the user to the All products page. The ‘Artist’s Blog’ page directs the user to the blog list 
+- The hero image is that of a woman swimming in dark water with attention drawn to a gold chain and pendant. I feel that this image plays well to the name of the store. 
+- You will find two call to action buttons on the landing page. The ‘Shop Now’ button directs the user to the All products page. The ‘Artist’s Blog’ page directs the user to the blog list 
 
 #### Products Pages
-The products page allows the user to see exactly which products are for sale. The products can be sorted by price, rating, name or category. Users can click on the product image to navigate to the product details page. They can then add the product to their shopping cart and proceed to checkout should they wish. 
-
-Superusers can update the details of a product easily either by clicking the delete button found under the items on the Product Details page, and then amending the form.
+- The products page allows the user to see exactly which products are for sale. The products can be sorted by price, rating, name or category. Users can click on the product image to navigate to the product details page. They can then add the product to their shopping cart and proceed to checkout should they wish. 
+- Superusers can update the details of a product easily either by clicking the delete button found under the items on the Product Details page, and then amending the form.
  
 #### Blog Page
-The blog app currently has 3 blog posts. When navigating to the blog page, the user will see a list of the blog posts. An image for each blog post has been included. As more blog posts are added by the superuser/site owner the user will be able to see them. Should the user click on the ‘See More’ button, they will be directed to the blog details page where they can read the blog post with more detail. 
-
-The user will be able to leave comments on each of the blog posts in the blog details page. The comments will be approved by the site owner and can be deleted at any time. 
-
-The blog posts can also be edited and deleted by the superuser. This allows the site owner to be able to make changes to the blog list as they see fit. 
+- The blog app currently has 3 blog posts. When navigating to the blog page, the user will see a list of the blog posts. An image for each blog post has been included. As more blog posts are added by the superuser/site owner the user will be able to see them. Should the user click on the ‘See More’ button, they will be directed to the blog details page where they can read the blog post with more detail. 
+- The user will be able to leave comments on each of the blog posts in the blog details page. The comments will be approved by the site owner and can be deleted at any time. 
+- The blog posts can also be edited and deleted by the superuser. This allows the site owner to be able to make changes to the blog list as they see fit. 
 
 #### Profile Page 
-Users will be able to navigate to their Profile page via the navigation bar at the top of site. This page is where they will be able to update their profile details like their shipping address and full name. Users will also be able to see an order history details. If they have made purchases before, they will be able to see then here, if not the order history will be empty. 
+- Users will be able to navigate to their Profile page via the navigation bar at the top of site. This page is where they will be able to update their profile details like their shipping address and full name. Users will also be able to see an order history details. If they have made purchases before, they will be able to see then here, if not the order history will be empty. 
 
 #### Checkout
-Similar to the Profile page, this is where the user will be able to confirm the shipping address. The user will be prompted to fill out their information to complete the order here. The user will also be able to order a summary, including the quantity per product they are purchasing, the subtotal per product and then the grand total of their order. I have implemented Stripe to manage payments. Once the order has been completed and payment has been processed, the user will receive an email confirmation. 
+- Similar to the Profile page, this is where the user will be able to confirm the shipping address. The user will be prompted to fill out their information to complete the order here. The user will also be able to order a summary, including the quantity per product they are purchasing, the subtotal per product and then the grand total of their order. I have implemented Stripe to manage payments. Once the order has been completed and payment has been processed, the user will receive an email confirmation. 
 
 ## Features Left To Implement 
 - Defensive delete button: Currently, the Delete button to delete a product has no defence to stop it being accidentally/automatically pressed. A confirmation of delete should be added.
@@ -190,19 +182,19 @@ Similar to the Profile page, this is where the user will be able to confirm the 
 
 After careful consideration and taking into account all the different parts of the website and needs of the database, I designed the schema in the following sections/models: 
 
-- user_profile: These are the details that the user saves to their profile for quick checkouts in the future. The username, email address and password details are set when the user registers for the site, and the delivery details are added when the user makes a purchase and selects to save those details to their profile.
+- **user_profile:** These are the details that the user saves to their profile for quick checkouts in the future. The username, email address and password details are set when the user registers for the site, and the delivery details are added when the user makes a purchase and selects to save those details to their profile.
 
-- order: This includes the overall order in full, including the delivery details from (from or added to the user profile) and the order_line_items.
+- **order:** This includes the overall order in full, including the delivery details from (from or added to the user profile) and the order_line_items.
 
-- order_line_items: This includes details of each product the user orders, the details of each product are linked to the products section.
+- **order_line_items:** This includes details of each product the user orders, the details of each product are linked to the products section.
 
-- products: This includes all the information related to each product, including the product item price, SKU, image, name, descriptions, category. Products can only be added by a Superuser/Authenticated user.
+- **products:** This includes all the information related to each product, including the product item price, SKU, image, name, descriptions, category. Products can only be added by a Superuser/Authenticated user.
 
-- category: Linking to the category field in the products section, the Category model simply holds the categories which are chosen in the product model. These categories are pre-set and can only be modified or added to by a Superuser/Authenticated user.
+- **category:** Linking to the category field in the products section, the Category model simply holds the categories which are chosen in the product model. These categories are pre-set and can only be modified or added to by a Superuser/Authenticated user.
 
-- blog: This section is non-relational to the rest of the database, and it holds details of the blog posts including the blog title, author, status, image, image_url and the post itself. The blog can only be added by a Superuser/Authenticated user.
+- **blog:** This section is non-relational to the rest of the database, and it holds details of the blog posts including the blog title, author, status, image, image_url and the post itself. The blog can only be added by a Superuser/Authenticated user.
 
-- blog Comment: The blog comment models also require a name, comment body, date it was created on and the active status (approved). THe Superuser will be able to approve the comment
+- **blog Comment:** The blog comment models also require a name, comment body, date it was created on and the active status (approved). THe Superuser will be able to approve the comment
 
 Below you will see the structure of the database. 
 
