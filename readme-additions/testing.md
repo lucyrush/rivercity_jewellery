@@ -128,10 +128,10 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 - View an order confirmation after Checkout
     - User will be directed to a 'Checkout Successful' page where they will be able to see the order details 
     - The user will also be sent an email with the order confirmation and order details to the email address they signed up with
-    - Below you will see confirmation of order that the user receives upon placing an order:
-    - ![order](order.JPG)
 - Receive an email confirmation after checkout, so that I can keep the confirmation of what I have purchased in my records
     - The user will be sent an email with the order confirmation and order details to the email address they signed up with 
+    - Below you will see confirmation of order that the user receives upon placing an order:
+    - ![order](order.JPG)
 
 :arrow_up: [Back to top](#code-testing)
 
