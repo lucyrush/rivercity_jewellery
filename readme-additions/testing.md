@@ -74,6 +74,9 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 ## As a site user, I want to be able to:
 - Easily register for an account, so that I can be able to have a personal account and be able to view my profile
     - User is able to easily register an account, confirm registration via the email sent and view their profile with their details saved. 
+    - To test this, I used [Temp Mail](https://temp-mail.org/en/view/d6f8aafbb803f106352d2bd9cdf115f7) to generate a temporary email address to register with. 
+    - You can see below, upon registration, the user will receive an email and a prompt to follow the link to confirm:
+    - ![email](email-confirm.JPG)
 - Easily login and logout, so that I can access my personal account and easily logout to quit the session
     - User is able to quickly logout of their profile via the 'Logout' button in the navbar
 - Have a personalised user account so that I can view my personal order history and order confirmations, and save my payment information
@@ -125,6 +128,8 @@ There are no errors through the PEP8 check. However, there are a couple of highl
 - View an order confirmation after Checkout
     - User will be directed to a 'Checkout Successful' page where they will be able to see the order details 
     - The user will also be sent an email with the order confirmation and order details to the email address they signed up with
+    - Below you will see confirmation of order that the user receives upon placing an order:
+    - ![order](order.JPG)
 - Receive an email confirmation after checkout, so that I can keep the confirmation of what I have purchased in my records
     - The user will be sent an email with the order confirmation and order details to the email address they signed up with 
 
